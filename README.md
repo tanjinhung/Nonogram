@@ -1,4 +1,2 @@
-# Title for my projects
+# Nonogram GUI Generator and Solver
 
-## Nonogram GUI
-Generator and Solver
