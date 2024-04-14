@@ -38,4 +38,8 @@ Problem:                            Answer:
 7. Generate Pixel art puzzle.
 
 ##### Solver
-1. 
+1. Reference others' code.
+2. Attempt to solve using own logic.
+3. Store the solution such that it can be parsed.
+4. Parsed the solution to determine the user input is correct.
+5. Link to GUI to show winning screen. 
