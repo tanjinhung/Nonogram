@@ -17,11 +17,21 @@ Problem:                            Answer:
   2 4 2   2 3 4 5 6                   2 4 2   2 3 4 5 6
 ```
 
-Create a Nonogram Generator and Solver.
-----------------------------------------
+### Create a Nonogram Generator and Solver.
 
-1. The problem can be written into sets that denotes the X and y axis.
-2. This can be further compose into a set of sets.
-3. Rendering first in an ASCII format.
-4. Pressing a space results in the toggling a '.' to a '#' and vice versa.
-5. 
+##### Game Logic generator
+1. Select a square grid that can be set by the user. (Hardness Level)
+2. Generate a random set that is able to fit into a grid space.
+3. The problem can be written into sets that denotes the X and y axis.
+4. This can be further compose into a set of sets.
+5. Rendering first in an ASCII format.
+6. Pressing a space results in the toggling between a '.' and a '#'.
+8. Proceed to create a GUI for the game.
+
+##### GUI
+1. Select between Sizable and Fixed window.
+2. Have a button that onPress regenerate the game.
+3. Have a grid of turntables that onPress flip into a colored block.
+4. Have a winning screen that denotes when the game is complete.
+5. Winning screen close button is a regenerate.
+6. 
