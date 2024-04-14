@@ -34,4 +34,8 @@ Problem:                            Answer:
 3. Have a grid of turntables that onPress flip into a colored block.
 4. Have a winning screen that denotes when the game is complete.
 5. Winning screen close button is a regenerate.
-6. 
+6. Have a Level select and a Custom Level.
+7. Generate Pixel art puzzle.
+
+##### Solver
+1. 
