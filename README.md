@@ -19,6 +19,13 @@ Problem:                            Answer:
 
 ### Create a Nonogram Generator and Solver.
 
+#### Functions
+* Level generator
+* Level solver
+* Level editor
+* Create Level from Image
+* A Playerable Game in GUI
+
 ##### Game Logic generator
 1. Select a square grid that can be set by the user. (Hardness Level)
 2. Generate a random set that is able to fit into a grid space.
