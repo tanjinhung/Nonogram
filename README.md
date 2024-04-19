@@ -1,4 +1,4 @@
-# Nonogram GUI Generator and Solver
+# Nonogram Game (ピクロス)
 
 
 ```
@@ -17,36 +17,41 @@ Problem:                            Answer:
   2 4 2   2 3 4 5 6                   2 4 2   2 3 4 5 6
 ```
 
-### Create a Nonogram Generator and Solver.
-
 #### Functions
+* User profie
 * Level generator
 * Level solver
 * Level editor
 * Create Level from Image
-* A Playerable Game in GUI
+* Level Solve Speed
 
-##### Game Logic generator
-1. Select a square grid that can be set by the user. (Hardness Level)
-2. Generate a random set that is able to fit into a grid space.
-3. The problem can be written into sets that denotes the X and y axis.
-4. This can be further compose into a set of sets.
-5. Rendering first in an ASCII format.
-6. Pressing a space results in the toggling between a '.' and a '#'.
-8. Proceed to create a GUI for the game.
-
-##### GUI
-1. Select between Sizable and Fixed window.
-2. Have a button that onPress regenerate the game.
-3. Have a grid of turntables that onPress flip into a colored block.
-4. Have a winning screen that denotes when the game is complete.
-5. Winning screen close button is a regenerate.
-6. Have a Level select and a Custom Level.
-7. Generate Pixel art puzzle.
-
-##### Solver
-1. Reference others' code.
-2. Attempt to solve using own logic.
-3. Store the solution such that it can be parsed.
-4. Parsed the solution to determine the user input is correct.
-5. Link to GUI to show winning screen. 
+## The Game
+1. Have a start screen that shows a Play button, Level editor, and Setting button.
+2. Pressing the Play button shows 3 profile select screen.
+   1. Shows the player name.
+   2. Shows the Level completed.
+   3. Shows the Lowest Time to complete a puzzle.
+3. Upon selecting a profile, A choice of difficulty can be chosen.
+   1. Easy (5x5)
+   2. Normal (10x10)
+   3. Hard (15x15)
+   4. Extreme (20x20)
+   5. Hell (30x30)
+   6. Custom (NxN)
+   7. Highscore
+4. Selecting a difficulty will put user into the play screen.
+   1. There will be buttons for Exit, Clear, Reset(Regenerate the game), and Finish.
+   2. The center will be the the Play area.
+5. When the user thinks that they have completed the game, the finish button is to be pressed.
+   1. Verify the user-inputted solution with internal solutions
+   2. Shows a winning screen if the user-inputted solution is correct.
+      1. The winning screen consist of:
+         * the difficulty of the level
+         * the time taken to complete the puzzle
+         * a button for retry, reset, and quit.
+6. The level editor is the opposite of the level select.
+   1. Have a color selector, Save button, and Exit button.
+   2. Puts user into the a play screen that have no hints.
+   3. When user adds a block to the board, the hint is updated to the current state of the board.
+   4. Save the user-edited play screen.
+7. The highscore is the speed at which that the user have solve each level including custom level with the custom grid.
