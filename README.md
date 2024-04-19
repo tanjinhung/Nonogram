@@ -49,10 +49,10 @@ Problem:                            Answer:
 4. When the user thinks that they have completed the game, the finish button is to be pressed.
    1. Verify the user-input solution with internal solutions which is found by the solver
    2. Shows a winning screen if the user-input solution is correct.
-      1. The winning screen consists of:
-         * the difficulty of the level
-         * the time taken to complete the puzzle
-         * a button for retry, reset, and quit.
+   3. The winning screen consists of:
+      * the difficulty of the level
+      * the time taken to complete the puzzle
+      * a button for retry, reset, and quit.
 5. The highscore is the speed at which that the user have solve each level including custom level with the custom grid.
 
 #### Level editor
