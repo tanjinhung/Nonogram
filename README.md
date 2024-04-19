@@ -1,6 +1,5 @@
 # Nonogram Game (ピクロス)
 
-
 ```
 Problem:                            Answer:
 . . . . . . . . . . 5 1 2           # # # # # . # . # # 5 1 2
@@ -26,12 +25,16 @@ Problem:                            Answer:
 * Level Solve Speed
 
 ## The Game
-1. Have a start screen that shows a Play button, Level editor, Profiles, and Setting button.
+1. Have a start screen that shows a Play button, Level editor, and Setting button.
 #### Play button
 1. Pressing the Play button shows profiles of three recent players on a separate screen with a next page button. Profiles consist of:
    1. the player name.
    2. the Level completed.
    3. the Lowest Time to complete a puzzle.
+   4. time played
+   5. delete button
+   6. edit button
+   7. create button is the last panel of the profile selection screen.
 2. Upon selecting a profile, A choice of difficulty can be chosen.
    1. Easy (5x5)
    2. Normal (10x10)
@@ -58,12 +61,3 @@ Problem:                            Answer:
    2. Puts user into the editor screen.
    3. When user adds a block to the grid, the hint is updated to the current state of the grid.
    4. Save the user-edited play screen.
-
-#### Profiles
-1. Have a create button.
-2. Have a lists of Created users. The listings consists of:
-   1. Profile picture
-   2. A user name
-   3. Time played
-   4. Delete button
-   5. Edit button
