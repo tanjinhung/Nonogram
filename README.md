@@ -26,12 +26,13 @@ Problem:                            Answer:
 * Level Solve Speed
 
 ## The Game
-1. Have a start screen that shows a Play button, Level editor, and Setting button.
-2. Pressing the Play button shows 3 profile select screen.
-   1. Shows the player name.
-   2. Shows the Level completed.
-   3. Shows the Lowest Time to complete a puzzle.
-3. Upon selecting a profile, A choice of difficulty can be chosen.
+1. Have a start screen that shows a Play button, Level editor, Profiles, and Setting button.
+#### Play button
+1. Pressing the Play button shows profiles of three recent players on a separate screen with a next page button. Profiles consist of:
+   1. the player name.
+   2. the Level completed.
+   3. the Lowest Time to complete a puzzle.
+2. Upon selecting a profile, A choice of difficulty can be chosen.
    1. Easy (5x5)
    2. Normal (10x10)
    3. Hard (15x15)
@@ -39,19 +40,30 @@ Problem:                            Answer:
    5. Hell (30x30)
    6. Custom (NxN)
    7. Highscore
-4. Selecting a difficulty will put user into the play screen.
+3. Selecting a difficulty will put user into the play screen.
    1. There will be buttons for Exit, Clear, Reset(Regenerate the game), and Finish.
    2. The center will be the the Play area.
-5. When the user thinks that they have completed the game, the finish button is to be pressed.
-   1. Verify the user-inputted solution with internal solutions
-   2. Shows a winning screen if the user-inputted solution is correct.
-      1. The winning screen consist of:
+4. When the user thinks that they have completed the game, the finish button is to be pressed.
+   1. Verify the user-input solution with internal solutions which is found by the solver
+   2. Shows a winning screen if the user-input solution is correct.
+      1. The winning screen consists of:
          * the difficulty of the level
          * the time taken to complete the puzzle
          * a button for retry, reset, and quit.
-6. The level editor is the opposite of the level select.
+5. The highscore is the speed at which that the user have solve each level including custom level with the custom grid.
+
+#### Level editor
+1. The level editor allows the user to craete their own problems.
    1. Have a color selector, Save button, and Exit button.
-   2. Puts user into the a play screen that have no hints.
-   3. When user adds a block to the board, the hint is updated to the current state of the board.
+   2. Puts user into the editor screen.
+   3. When user adds a block to the grid, the hint is updated to the current state of the grid.
    4. Save the user-edited play screen.
-7. The highscore is the speed at which that the user have solve each level including custom level with the custom grid.
+
+#### Profiles
+1. Have a create button.
+2. Have a lists of Created users. The listings consists of:
+   1. Profile picture
+   2. A user name
+   3. Time played
+   4. Delete button
+   5. Edit button
