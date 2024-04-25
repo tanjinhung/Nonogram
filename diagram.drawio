@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="2UFn6uKYK-0lyqwZOTh3" name="Page-1">
+        <mxGraphModel dx="1975" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="150" width="1600" height="900" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Nonogram" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=150;horizontal=1;html=1;fontColor=#CCFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="260" width="1400" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Play" style="rounded=1;whiteSpace=wrap;html=1;fontSize=64;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="530" width="790" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Level Editor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=64;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="680" width="790" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Options" style="rounded=1;whiteSpace=wrap;html=1;fontSize=64;arcSize=50;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="830" width="790" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
