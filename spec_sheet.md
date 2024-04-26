@@ -57,7 +57,14 @@ Problem:                            Answer:
 
 #### Level editor
 1. The level editor allows the user to craete their own problems.
-   1. Have a color selector, Save button, and Exit button.
+   1. Have a Clear button, Resize button, Publish button, and Exit button.
    2. Puts user into the editor screen.
    3. When user adds a block to the grid, the hint is updated to the current state of the grid.
    4. Save the user-edited play screen.
+
+#### Control Scheme
+| Controls | Function |
+| --- | --- |
+| `LMB` | Place a block on a square |
+| `RMB` | Remove a block on a square |
+| `MMB` | Place a placeolder block on a square |

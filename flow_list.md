@@ -67,3 +67,5 @@
 5. When clear button is press, remove all squares, and update the hints.
 6. When resize button is press, go to step 1.
 7. When publish button is press, save the hints to file.
+
+### usecase 6 : 
