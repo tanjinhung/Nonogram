@@ -65,6 +65,6 @@ Problem:                            Answer:
 #### Control Scheme
 | Controls | Function |
 | :---: | --- |
-| `LMB` | Place a block on a square |
+| `LMB`/`space` | Place a block on a square |
 | `RMB` | Remove a block on a square |
 | `MMB` | Place a placeolder block on a square |
