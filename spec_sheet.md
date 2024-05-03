@@ -68,4 +68,4 @@ Problem:                            Answer:
 | `LMB` / `space` | Place a block on a square |
 | `RMB` | Remove a block on a square |
 | `MMB` | Place a placeolder block on a square |
-| `w` / `&#8593` | Move cursor up |
+| `w` / `&#8593;` | Move cursor up |
