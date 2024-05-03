@@ -2,10 +2,10 @@
 
 ### usecase 1 : Creating a user
 ---------------------------------
-*actor*     : player
-*pre-ops*   : press create Profile button
-*post-ops*  : switch screen to Level Select
-*flow*      : 
+**actor**     : player
+**pre-ops**   : press create Profile button
+**post-ops**  : switch screen to Level Select
+**flow**      : 
 1. Overlay profile creation screen.
 2. Player inputs username and selects profile picture.
    1. Username is required.
@@ -19,10 +19,10 @@
 
 ### usecase 2 : Deleting a user
 ---------------------------------
-*actor*     : player
-*pre-ops*   : press delete Profile button
-*post-ops*  : update the Profile Menu
-*flow*      :
+**actor**     : player
+**pre-ops**   : press delete Profile button
+**post-ops**  : update the Profile Menu
+**flow**      :
 1. Player confirms deletion
    1. Cenceling puts user back to Profile Menu.
 2. Search for entry in database.
@@ -30,10 +30,10 @@
 
 ### usecase 3 : Creating play screen
 ------------------------------------
-*actor*     : player
-*pre-ops*   : press any difficulty button
-*post-ops*  : switch screen to Play screen
-*flow*      :
+**actor**     : player
+**pre-ops**   : press any difficulty button
+**post-ops**  : switch screen to Play screen
+**flow**      :
 1. Determine the size of the grid.
 2. Generate a puzzle that fits to the size of the grid.
 3. Detemine the solvability of the puzzle.
@@ -42,10 +42,10 @@
  
 ### usecase 4 : Finishing a Game
 ----------------------------------
-*actor*     : player
-*pre-ops*   : press the finish button
-*post-ops*  : show Win screen
-*flow*      : 
+**actor**     : player
+**pre-ops**   : press the finish button
+**post-ops**  : show Win screen
+**flow**      : 
 1. Pause the stopwatch.
 2. Solve the puzzle and store solution in memory.
 3. Verify the user-input solution to the solution in memory.
@@ -56,11 +56,11 @@
 
 ### usecase 5 : Creating a Level
 ---------------------------------
-*actor*     : player
-*pre-ops*   : press Level Editor
-*post-ops*  : puts Level into a custom level
-*flow*      :
-1. Player detemine a size.
+**actor**     : player
+**pre-ops**   : press Level Editor
+**post-ops**  : puts Level into a custom level
+**flow**      :
+1. Player determine a size.
 2. Display a play grid of the size.
 3. When player left click a square, adds the square, and update the hints.
 4. When player right click a square, removes the square, and update the hints.
@@ -68,4 +68,9 @@
 6. When resize button is press, go to step 1.
 7. When publish button is press, save the hints to file.
 
-### usecase 6 : 
+### usecase 6 : Playing a Level
+-----------------------------------
+**actor**     : player
+**pre-ops**   : In a play screen
+**post-ops**  : *N/A*
+**flow**      :
