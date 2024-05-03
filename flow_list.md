@@ -44,15 +44,17 @@
 ----------------------------------
 **actor**     : player
 **pre-ops**   : press the finish button
-**post-ops**  : show Win screen
+**post-ops**  : *N/A*
 **flow**      : 
 1. Pause the stopwatch.
 2. Solve the puzzle and store solution in memory.
 3. Verify the user-input solution to the solution in memory.
-   1. If user-input solution is incorrect, show failed screen.
+   1. If user-input solution is incorrect, show lose screen.
       1. Pressing retry button, puts player back to the play area, and unpause the stopwatch.
       2. Pressing exit button, puts player to Level Select.
-   2. If user-input solution is correct, stop the stopwatch.
+   2. If user-input solution is correct, stop the stopwatch, show win screen.
+      1. Pressing again button, puts player back to the play area, and go to *usecase 3*
+      2. Pressing exit button, puts player to Level Select.
 
 ### usecase 5 : Creating a Level
 ---------------------------------
