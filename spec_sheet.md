@@ -68,4 +68,7 @@ Problem:                            Answer:
 | `LMB` / `space` | Place a block on a square |
 | `RMB` | Remove a block on a square |
 | `MMB` | Place a placeolder block on a square |
-| `w` / <kbd>&uarr;</kbd> | Move cursor up |
+| `w` | Move cursor up |
+| `s` | Move cursor down |
+| `a` | Move cursor left |
+| `d` | Move cursor right |
