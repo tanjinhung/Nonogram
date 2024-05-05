@@ -34,7 +34,7 @@
 **pre-ops**   : press any difficulty button
 **post-ops**  : switch screen to Play screen
 **flow**      :
-1. Determine the size of the grid.
+1. Sets the size of the grid to the difficulty.
 2. Generate a puzzle that fits to the size of the grid.
 3. Detemine the solvability of the puzzle.
    1. If unsolvable, go back to step 2.
