@@ -53,26 +53,35 @@
       1. Pressing retry button, puts player back to the play area, and unpause the stopwatch.
       2. Pressing exit button, puts player to Level Select.
    2. If user-input solution is correct, stop the stopwatch, show win screen.
-      1. Pressing again button, puts player back to the play area, and go to *usecase 3*
+      1. Pressing again button, puts player back to the play area, and go to *usecase 3*.
       2. Pressing exit button, puts player to Level Select.
 
 ### usecase 5 : Creating a Level
 ---------------------------------
 **actor**     : player
 **pre-ops**   : press Level Editor
-**post-ops**  : puts Level into a custom level
+**post-ops**  : go to main menu
 **flow**      :
 1. Player determine a size.
-2. Display a play grid of the size.
-3. When player left click a square, adds the square, and update the hints.
-4. When player right click a square, removes the square, and update the hints.
-5. When clear button is press, remove all squares, and update the hints.
+2. Display a grid of the size.
+3. When player left click a square, place the square on the grid, and update the hints.
+4. When player right click a square, removes the square on the grid, and update the hints.
+5. When clear button is press, remove all squares on the grid, and update the hints.
 6. When resize button is press, go to step 1.
 7. When publish button is press, save the hints to file.
 
 ### usecase 6 : Playing a Level
 -----------------------------------
 **actor**     : player
-**pre-ops**   : In a play screen
+**pre-ops**   : in a play screen
 **post-ops**  : *N/A*
 **flow**      :
+1. Display a grid of the appropriate difficulty.
+2. When player left click a square, place the square on the grid.
+   1. If there is a placeholder square on the grid, remove the placeholder and place a square.
+3. When player right click a square, remove the (placeholder) square on the grid.
+4. When player middle click a square, place a placeholder X on the grid.
+   1. If there is a square on the grid, remove the square and place a placeholder. 
+5. When clear button is press, remove all squares on the grid.
+6. When reset button is press, go to *usecase 3*.
+7. When finish button is press, go to *usecase 4*.
