@@ -66,8 +66,8 @@ Problem:                            Answer:
 | Controls | Function |
 | :---: | :--- |
 | `LMB` / `space` | Place a block on a square |
-| `RMB` / `shift`+`space` | Remove a (placeholder) block on a square |
-| `MMB` | Place a placeholder block on a square |
+| `RMB` / `v` | Remove a (placeholder) block on a square |
+| `MMB` / `f` | Place a placeholder block on a square |
 | `w` | Move cursor up |
 | `s` | Move cursor down |
 | `a` | Move cursor left |
