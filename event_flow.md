@@ -1,6 +1,6 @@
 # Event Flow
 
-### usecase 1 : Creating a user
+### Usecase 1 : Creating a user
 ---------------------------------
 **actor**     : player  
 **pre-ops**   : press create Profile button  
@@ -17,7 +17,7 @@
    1. Cenceling puts user back to Profile Menu.
 4. System records data into database.
 
-### usecase 2 : Deleting a user
+### Usecase 2 : Deleting a user
 ---------------------------------
 **actor**     : player  
 **pre-ops**   : press delete Profile button  
@@ -28,7 +28,7 @@
 2. Search for entry in database.
 3. Delete the entry.
 
-### usecase 3 : Creating play screen
+### Usecase 3 : Creating play screen
 ------------------------------------
 **actor**     : player  
 **pre-ops**   : press any difficulty button  
@@ -40,7 +40,7 @@
    1. If unsolvable, go back to step 2.
 4. Starts a stopwatch to record the time.
  
-### usecase 4 : Finishing a Game
+### Usecase 4 : Finishing a Game
 ----------------------------------
 **actor**     : player  
 **pre-ops**   : press the finish button  
@@ -53,10 +53,10 @@
       1. Pressing retry button, puts player back to the play area, and unpause the stopwatch.
       2. Pressing exit button, puts player to Level Select.
    2. If user-input solution is correct, stop the stopwatch, show win screen.
-      1. Pressing again button, puts player back to the play area, and go to *usecase 3*.
+      1. Pressing again button, puts player back to the play area, and go to *Usecase 3*.
       2. Pressing exit button, puts player to Level Select.
 
-### usecase 5 : Creating a Level
+### Usecase 5 : Creating a Level
 ---------------------------------
 **actor**     : player  
 **pre-ops**   : press Level Editor  
@@ -70,7 +70,7 @@
 6. When resize button is press, go to step 1.
 7. When publish button is press, save the hints to file.
 
-### usecase 6 : Playing a Level
+### Usecase 6 : Playing a Level
 -----------------------------------
 **actor**     : player  
 **pre-ops**   : in a play screen  
@@ -83,5 +83,5 @@
 4. When player middle click a square, place a placeholder X on the grid.
    1. If there is a square on the grid, remove the square and place a placeholder. 
 5. When clear button is press, remove all squares on the grid.
-6. When reset button is press, go to *usecase 3*.
-7. When finish button is press, go to *usecase 4*.
+6. When reset button is press, go to *Usecase 3*.
+7. When finish button is press, go to *Usecase 4*.
