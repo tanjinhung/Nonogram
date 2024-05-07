@@ -2,10 +2,10 @@
 
 ### usecase 1 : Creating a user
 ---------------------------------
-**actor**     : player
-**pre-ops**   : press create Profile button
-**post-ops**  : switch screen to Level Select
-**flow**      : 
+**actor**     : player  
+**pre-ops**   : press create Profile button  
+**post-ops**  : switch screen to Level Select  
+**flow**      :   
 1. Overlay profile creation screen.
 2. Player inputs username and selects profile picture.
    1. Username is required.
@@ -19,10 +19,10 @@
 
 ### usecase 2 : Deleting a user
 ---------------------------------
-**actor**     : player
-**pre-ops**   : press delete Profile button
-**post-ops**  : update the Profile Menu
-**flow**      :
+**actor**     : player  
+**pre-ops**   : press delete Profile button  
+**post-ops**  : update the Profile Menu  
+**flow**      :  
 1. Player confirms deletion
    1. Cenceling puts user back to Profile Menu.
 2. Search for entry in database.
@@ -30,10 +30,10 @@
 
 ### usecase 3 : Creating play screen
 ------------------------------------
-**actor**     : player
-**pre-ops**   : press any difficulty button
-**post-ops**  : switch screen to Play screen
-**flow**      :
+**actor**     : player  
+**pre-ops**   : press any difficulty button  
+**post-ops**  : switch screen to Play screen  
+**flow**      :  
 1. Sets the size of the grid to the difficulty.
 2. Generate a puzzle that fits to the size of the grid.
 3. Detemine the solvability of the puzzle.
@@ -42,10 +42,10 @@
  
 ### usecase 4 : Finishing a Game
 ----------------------------------
-**actor**     : player
-**pre-ops**   : press the finish button
-**post-ops**  : *N/A*
-**flow**      : 
+**actor**     : player  
+**pre-ops**   : press the finish button  
+**post-ops**  : *N/A*  
+**flow**      :   
 1. Pause the stopwatch.
 2. Solve the puzzle and store solution in memory.
 3. Verify the user-input solution to the solution in memory.
@@ -58,10 +58,10 @@
 
 ### usecase 5 : Creating a Level
 ---------------------------------
-**actor**     : player
-**pre-ops**   : press Level Editor
-**post-ops**  : go to main menu
-**flow**      :
+**actor**     : player  
+**pre-ops**   : press Level Editor  
+**post-ops**  : go to main menu  
+**flow**      :  
 1. Player determine a size.
 2. Display a grid of the size.
 3. When player left click a square, place the square on the grid, and update the hints.
@@ -72,10 +72,10 @@
 
 ### usecase 6 : Playing a Level
 -----------------------------------
-**actor**     : player
-**pre-ops**   : in a play screen
-**post-ops**  : *N/A*
-**flow**      :
+**actor**     : player  
+**pre-ops**   : in a play screen  
+**post-ops**  : *N/A*  
+**flow**      :  
 1. Display a grid of the appropriate difficulty.
 2. When player left click a square, place the square on the grid.
    1. If there is a placeholder square on the grid, remove the placeholder and place a square.
