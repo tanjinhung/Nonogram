@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2UFn6uKYK-0lyqwZOTh3" name="Main Menu">
-        <mxGraphModel dx="1896" dy="1449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="1975" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -27,7 +27,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Profile Select" id="CL2PADSG3frgrDbO5eHj">
-        <mxGraphModel dx="2608" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="1975" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="4CX7Mn7BToN_vc6OHIbC-0"/>
                 <mxCell id="4CX7Mn7BToN_vc6OHIbC-1" parent="4CX7Mn7BToN_vc6OHIbC-0"/>
@@ -168,7 +168,7 @@
                 <mxCell id="ALRL0h8bT84CGmR8OVDB-0" value="Exit" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=40;fontColor=default;fillColor=default;" parent="4CX7Mn7BToN_vc6OHIbC-1" vertex="1">
                     <mxGeometry x="270" y="947" width="1385" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="tFXDJDK69U2dp5bVsaKz-3" value="Creation" parent="4CX7Mn7BToN_vc6OHIbC-0"/>
+                <mxCell id="tFXDJDK69U2dp5bVsaKz-3" value="Creation" parent="4CX7Mn7BToN_vc6OHIbC-0" visible="0"/>
                 <mxCell id="lbCMAINeEk9oq2Z-jNNS-0" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;" parent="tFXDJDK69U2dp5bVsaKz-3" vertex="1">
                     <mxGeometry x="160" y="150" width="1600" height="900" as="geometry"/>
                 </mxCell>
@@ -208,7 +208,7 @@
                 <mxCell id="tFXDJDK69U2dp5bVsaKz-73" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fontSize=64;" parent="tFXDJDK69U2dp5bVsaKz-3" vertex="1">
                     <mxGeometry x="1370" y="700" width="130" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="tFXDJDK69U2dp5bVsaKz-74" value="Confirmation" parent="4CX7Mn7BToN_vc6OHIbC-0"/>
+                <mxCell id="tFXDJDK69U2dp5bVsaKz-74" value="Confirmation" parent="4CX7Mn7BToN_vc6OHIbC-0" visible="0"/>
                 <mxCell id="lbCMAINeEk9oq2Z-jNNS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;" parent="tFXDJDK69U2dp5bVsaKz-74" vertex="1">
                     <mxGeometry x="160" y="150" width="1600" height="900" as="geometry"/>
                 </mxCell>
@@ -228,7 +228,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="RMgVzvagkXX2xlWkQkEI" name="Level Select">
-        <mxGraphModel dx="2086" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="1975" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -262,7 +262,7 @@
                 <mxCell id="ViLpOX3Sv2QcEru-6HSX-2" value="Exit" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=default;fontFamily=Helvetica;fontSize=40;fontColor=default;fillColor=default;" parent="1" vertex="1">
                     <mxGeometry x="380" y="800" width="490" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="aU2bPmaCxElUC8uy9_TU-1" value="Highscore" parent="0"/>
+                <mxCell id="aU2bPmaCxElUC8uy9_TU-1" value="Highscore" parent="0" visible="0"/>
                 <mxCell id="Ej3MdlRjiplxNJLHOS_3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;" parent="aU2bPmaCxElUC8uy9_TU-1" vertex="1">
                     <mxGeometry x="160" y="150" width="1600" height="900" as="geometry"/>
                 </mxCell>
@@ -369,7 +369,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="8H_hLH_GGKfhqZQ4dqs1" name="Play Screen">
-        <mxGraphModel dx="2086" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+        <mxGraphModel dx="1975" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -615,7 +615,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="P8av9Y3G5H58eBy3RIIv" name="Level Editor">
-        <mxGraphModel dx="1896" dy="1449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1975" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
