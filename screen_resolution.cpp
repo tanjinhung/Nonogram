@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[])
 {
-    DEVMODE dm = {0};
+    DEVMODE dm;
     dm.dmSize = sizeof(dm);
     for (int iModeNum = 0; EnumDisplaySettings(NULL, iModeNum, &dm) != 0; iModeNum++)
     {
