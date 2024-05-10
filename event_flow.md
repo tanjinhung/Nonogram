@@ -2,86 +2,110 @@
 
 ### Usecase 1 : Creating a user
 ---------------------------------
-**actor**     : player  
-**pre-ops**   : press create Profile button  
-**post-ops**  : switch screen to Level Select  
-**flow**      :   
-1. Overlay profile creation screen.
-2. Player inputs username and selects profile picture.
-   1. Username is required.
-      1. Cannot proceed if blank is provided
-   2. Username cannot be duplicated.
-      1. Warn user for duplication.
-      2. Cannot proceed without changes.
-3. Player confirms creation.
-   1. Cenceling puts user back to Profile Menu.
-4. System records data into database.
+**actor**            : player  
+**pre-ops**          : "Profile Selection" screen  
+**post-ops**         : System records entry  
+**Basic flow**       :   
+1. Player press "create profile" button.
+2. System overlays "profile creation" screen.
+3. Player inputs username and selects profile picture.
+4. System overlays "confirmation" screen.
+5. Player confirms creation.
+**Alternate flow**   :  
+3a. If username input is blank, 
+   3a1. System alerts player for empty input.
+   3a2. Go to *basic flow 2*.
+3b. If username is a duplicate,
+   3b1. System alerts player for duplicated input.
+   3b2. Go to *basic flow 2*.
+**Exception flow**   :  
+5a. Canceling puts player back to "Profile Selection" screen.
 
 ### Usecase 2 : Deleting a user
 ---------------------------------
-**actor**     : player  
-**pre-ops**   : press delete Profile button  
-**post-ops**  : update the Profile Menu  
-**flow**      :  
-1. Player confirms deletion
-   1. Cenceling puts user back to Profile Menu.
-2. Search for entry in database.
-3. Delete the entry.
+**actor**            : player  
+**pre-ops**          : "Profile Selection" screen  
+**post-ops**         : System deletes entry    
+**flow**             : 
+1. Player presses "delete profile" button.
+2. System overlays "confirmation" screen.
+3. Player confirms deletion.
+4. System searches for entry.
+**Exception flow**   :  
+3a. Cenceling puts player back to "Profile Selection" screen.
 
 ### Usecase 3 : Creating play screen
 ------------------------------------
-**actor**     : player  
-**pre-ops**   : press any difficulty button  
-**post-ops**  : switch screen to Play screen  
-**flow**      :  
-1. Sets the size of the grid to the difficulty.
-2. Generate a puzzle that fits to the size of the grid.
-3. Detemine the solvability of the puzzle.
-   1. If unsolvable, go back to step 2.
-4. Starts a stopwatch to record the time.
+**actor**            : player  
+**pre-ops**          : "difficulty selection" screen  
+**post-ops**         : System switches screen to Play screen  
+**flow**             :  
+1. Player selects a difficulty.
+2. System sets the size of the grid to the difficulty.
+3. System generates a puzzle that fits to the size of the grid.
+4. System verifies the solvability of the puzzle.
+5. System starts a timer to record the time.
+**Alternate flow**   :  
+4a. If unsolvable,
+   4a1. go to *basic flow 2*.
  
 ### Usecase 4 : Finishing a Game
 ----------------------------------
-**actor**     : player  
-**pre-ops**   : press the finish button  
-**post-ops**  : *N/A*  
-**flow**      :   
-1. Pause the stopwatch.
-2. Solve the puzzle and store solution in memory.
-3. Verify the user-input solution to the solution in memory.
-   1. If user-input solution is incorrect, show lose screen.
-      1. Pressing retry button, puts player back to the play area, and unpause the stopwatch.
-      2. Pressing exit button, puts player to Level Select.
-   2. If user-input solution is correct, stop the stopwatch, show win screen.
-      1. Pressing again button, puts player back to the play area, and go to *Usecase 3*.
-      2. Pressing exit button, puts player to Level Select.
+**actor**            : player  
+**pre-ops**          : "play" screen  
+**post-ops**         : System records time taken to complete the puzzle  
+**flow**             :   
+1. Player presses "finish" button.
+2. System pauses the timer.
+3. System solves the puzzle and store solution in memory.
+4. System verify the user-input solution to the solution in memory.
+5. System shows the result and score of the puzzle.
 
 ### Usecase 5 : Creating a Level
 ---------------------------------
-**actor**     : player  
-**pre-ops**   : press Level Editor  
-**post-ops**  : go to main menu  
-**flow**      :  
-1. Player determine a size.
-2. Display a grid of the size.
-3. When player left click a square, place the square on the grid, and update the hints.
-4. When player right click a square, removes the square on the grid, and update the hints.
-5. When clear button is press, remove all squares on the grid, and update the hints.
-6. When resize button is press, go to step 1.
-7. When publish button is press, save the hints to file.
+**actor**            : player  
+**pre-ops**          : Main Menu  
+**post-ops**         : System stores the hints  
+**flow**             :  
+1. Player presses "Level Editor" button
+2. Player determines a size of the grid.
+3. System displays the grid to the specified size.
+4. Player presses "publish" button.
+5. System calculates the hints for the grid.
+**Exception flow**   :  
+3a. Player presses "exit" button.
+3b. System switches screen to "Main Menu" without storing.
 
-### Usecase 6 : Playing a Level
+### Usecase 6 : Coloring a square
 -----------------------------------
-**actor**     : player  
-**pre-ops**   : in a play screen  
-**post-ops**  : *N/A*  
-**flow**      :  
-1. Display a grid of the appropriate difficulty.
-2. When player left click a square, place the square on the grid.
-   1. If there is a placeholder square on the grid, remove the placeholder and place a square.
-3. When player right click a square, remove the (placeholder) square on the grid.
-4. When player middle click a square, place a placeholder X on the grid.
-   1. If there is a square on the grid, remove the square and place a placeholder. 
-5. When clear button is press, remove all squares on the grid.
-6. When reset button is press, go to *Usecase 3*.
-7. When finish button is press, go to *Usecase 4*.
+**actor**            : player  
+**pre-ops**          : "play" screen  
+**post-ops**         : System colors the selected square  
+**flow**             :  
+1. Player left clicks a square.
+**alternate flow**   :
+1a. If placeholder exists on the square
+   1a1. system remove placeholder.
+   1a2. go to *basic flow 1*.
+
+### Usecase 7 : Decoloring a square
+------------------------------------
+**actor**            : player  
+**pre-ops**          : "play" screen  
+**post-ops**         : System decolors the selected square  
+**flow**             :  
+1. Player right clicks a square.
+**alternate flow**   :
+1a. If placeholder exists on the square
+   1a1. system remove placeholder.
+   1a2. go to *basic flow 1*.
+
+### Usecase 8 : Marking a square
+------------------------------------
+**actor**            : player  
+**pre-ops**          : "play" screen  
+**post-ops**         : System marks the selected square with a placeholder  
+**flow**             :  
+1. Player middle clicks a square.
+**exception flow**   :
+1a. If the square is colored, placeholder cannot be placed.
