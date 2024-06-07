@@ -2,6 +2,7 @@
 
 ### Usecase 1 : Creating a user
 ---------------------------------
+**overview**         : create a user in the system
 **actor**            : player  
 **pre-ops**          : "Profile Selection" screen  
 **post-ops**         : System records entry  
@@ -23,6 +24,7 @@
 
 ### Usecase 2 : Deleting a user
 ---------------------------------
+**overview**         : delete a user from the system
 **actor**            : player  
 **pre-ops**          : "Profile Selection" screen  
 **post-ops**         : System deletes entry    
@@ -36,6 +38,7 @@
 
 ### Usecase 3 : Creating play screen
 ------------------------------------
+**overview**         : generate a play screen and starts timer
 **actor**            : player  
 **pre-ops**          : "difficulty selection" screen  
 **post-ops**         : System switches screen to Play screen  
@@ -51,6 +54,7 @@
  
 ### Usecase 4 : Finishing a Game
 ----------------------------------
+**overview**         : stops timer and show the result
 **actor**            : player  
 **pre-ops**          : "play" screen  
 **post-ops**         : System records time taken to complete the puzzle  
@@ -63,6 +67,7 @@
 
 ### Usecase 5 : Creating a Level
 ---------------------------------
+**overview**         : saves the user-created level
 **actor**            : player  
 **pre-ops**          : Main Menu  
 **post-ops**         : System stores the hints  
@@ -78,6 +83,7 @@
 
 ### Usecase 6 : Coloring a square
 -----------------------------------
+**overview**         : colors a square
 **actor**            : player  
 **pre-ops**          : "play" screen  
 **post-ops**         : System colors the selected square  
@@ -90,6 +96,7 @@
 
 ### Usecase 7 : Decoloring a square
 ------------------------------------
+**overview**         : decolors a square
 **actor**            : player  
 **pre-ops**          : "play" screen  
 **post-ops**         : System decolors the selected square  
@@ -102,6 +109,7 @@
 
 ### Usecase 8 : Marking a square
 ------------------------------------
+**overview**         : marks a sqaure
 **actor**            : player  
 **pre-ops**          : "play" screen  
 **post-ops**         : System marks the selected square with a placeholder  
