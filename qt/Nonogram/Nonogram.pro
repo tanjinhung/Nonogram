@@ -10,10 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     frame.cpp \
-    main.cpp
+    gamecontroller.cpp \
+    main.cpp \
+    profilecontroller.cpp \
+    user.cpp
 
 HEADERS += \
-    frame.h
+    frame.h \
+    gamecontroller.h \
+    profilecontroller.h \
+    user.h
 
 FORMS +=
 

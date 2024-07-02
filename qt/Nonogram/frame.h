@@ -19,9 +19,9 @@ signals:
 
 private slots:
     void showProfileSelectionScreen();
-    void showProfileCreationOverlay();
-    void showConfirmationOverlay();
-    void showDifficultySelectionScreen();
+    // void showProfileCreationOverlay();
+    // void showConfirmationOverlay();
+    // void showDifficultySelectionScreen();
 };
 
 #endif // FRAME_H
