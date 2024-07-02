@@ -11,17 +11,17 @@ public:
     explicit Frame(QWidget *parent = nullptr);
 
     void showMainMenu();
-    /*
-    void showProfileSelectionScreen();
-    void showProfileCreationOverlay();
-    void showConfirmationOverlay();
-    void showDifficultySelectionScreen();
-    */
 
     QGraphicsScene* scene;
 
 
 signals:
+
+private slots:
+    void showProfileSelectionScreen();
+    void showProfileCreationOverlay();
+    void showConfirmationOverlay();
+    void showDifficultySelectionScreen();
 };
 
 #endif // FRAME_H
