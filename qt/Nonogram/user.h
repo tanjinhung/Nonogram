@@ -1,7 +1,7 @@
 #ifndef USER_H
 #define USER_H
 
-#include <string>
+#include <QString>
 
 
 class User
@@ -9,7 +9,7 @@ class User
 public:
     User(
         int userId,
-        const std::string &name,
+        const QString &name,
         int imageId,
         int levelCompleted,
         const clock_t fastestCompleted,
@@ -19,8 +19,8 @@ public:
 
     int getUserId() const;
 
-    std::string getName() const;
-    void setName(const std::string &newName);
+    QString getName() const;
+    void setName(const QString &newName);
     int getImageId() const;
     void setImageId(int newImageId);
     int getLevelCompleted() const;
@@ -32,7 +32,7 @@ public:
 
 private:
     int userId;
-    std::string name;
+    QString name;
     int imageId;
     int levelCompleted;
     clock_t fastestCompleted;

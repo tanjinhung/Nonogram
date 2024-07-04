@@ -1,6 +1,6 @@
 #include "user.h"
 
-User::User(int userId, const std::string &name, int imageId, int levelCompleted, clock_t fastestCompleted, time_t totalTimePlayed)
+User::User(int userId, const QString &name, int imageId, int levelCompleted, clock_t fastestCompleted, time_t totalTimePlayed)
     : userId(userId), name(name), imageId(imageId), levelCompleted(levelCompleted), fastestCompleted(fastestCompleted), totalTimePlayed(totalTimePlayed)
 {
 
@@ -11,12 +11,12 @@ int User::getUserId() const
     return userId;
 }
 
-std::string User::getName() const
+QString User::getName() const
 {
     return name;
 }
 
-void User::setName(const std::string &newName)
+void User::setName(const QString &newName)
 {
     name = newName;
 }

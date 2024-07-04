@@ -1,22 +1,20 @@
 #ifndef PROFILECONTROLLER_H
 #define PROFILECONTROLLER_H
 
-#include <string>
+#include <QObject>
+#include "CSVUserDAO.h"
 
-class ProfileController
-{
+class ProfileController : public QObject {
+    Q_OBJECT
 public:
-    ProfileController();
+    explicit ProfileController(QObject *parent = nullptr);
 
-    void registerUser();
-    void confirmUserDeletion();
+signals:
+    void registrationFailed(const QString &msg);
+    void registrationSucceeded();
 
-private:
-    std::string username;
-    int imageId;
-
-    void verifyInput();
-    void findUser();
+public slots:
+    void registerUser(const QString &name, int imageNumber);
 };
 
 #endif // PROFILECONTROLLER_H
