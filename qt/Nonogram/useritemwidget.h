@@ -1,12 +1,12 @@
 #ifndef USERITEMWIDGET_H
 #define USERITEMWIDGET_H
 
-#include <QWidget>
+#include <QGraphicsView>
 #include <QPushButton>
 #include <QLabel>
 #include "User.h"
 
-class UserItemWidget : public QWidget {
+class UserItemWidget : public QGraphicsView {
     Q_OBJECT
 
 public:
@@ -22,11 +22,8 @@ private slots:
 
 private:
     int userId;
-    QLabel *nameLabel;
-    QLabel *imageIdLabel;
-    QLabel *levelCompletedLabel;
-    QLabel *fastestCompletedLabel;
-    QLabel *totalTimePlayedLabel;
+    QGraphicsScene *scene;
+    QLabel *imageLabel;
     QPushButton *selectButton;
     QPushButton *deleteButton;
 };

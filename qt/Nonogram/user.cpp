@@ -1,6 +1,6 @@
 #include "user.h"
 
-User::User(int userId, const QString &name, int imageId, int levelCompleted, clock_t fastestCompleted, time_t totalTimePlayed)
+User::User(int userId, const QString &name, int imageId, int levelCompleted, qint64 fastestCompleted, qint64 totalTimePlayed)
     : userId(userId), name(name), imageId(imageId), levelCompleted(levelCompleted), fastestCompleted(fastestCompleted), totalTimePlayed(totalTimePlayed)
 {
 
@@ -41,22 +41,32 @@ void User::setLevelCompleted(int newLevelCompleted)
     levelCompleted = newLevelCompleted;
 }
 
-clock_t User::getFastestCompleted() const
+qint64 User::getFastestCompleted() const
 {
     return fastestCompleted;
 }
 
-void User::setFastestCompleted(clock_t newFastestCompleted)
+void User::setFastestCompleted(qint64 newFastestCompleted)
 {
     fastestCompleted = newFastestCompleted;
 }
 
-time_t User::getTotalTimePlayed() const
+qint64 User::getTotalTimePlayed() const
 {
     return totalTimePlayed;
 }
 
-void User::setTotalTimePlayed(time_t newTotalTimePlayed)
+void User::setTotalTimePlayed(qint64 newTotalTimePlayed)
 {
     totalTimePlayed = newTotalTimePlayed;
+}
+
+QTime User::getFastestCompletedTime() const
+{
+    return QTime::fromMSecsSinceStartOfDay(static_cast<int>(fastestCompleted));
+}
+
+QTime User::getTotalTimePlayedTime() const
+{
+    return QTime::fromMSecsSinceStartOfDay(static_cast<int>(totalTimePlayed));
 }

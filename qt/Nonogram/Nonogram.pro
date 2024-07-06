@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     clickablelabel.cpp \
     csvuserdao.cpp \
+    customscrollarea.cpp \
     frame.cpp \
     main.cpp \
     profilecontroller.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
 HEADERS += \
     clickablelabel.h \
     csvuserdao.h \
+    customscrollarea.h \
     frame.h \
     profilecontroller.h \
     user.h \

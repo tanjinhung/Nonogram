@@ -2,7 +2,7 @@
 #define USER_H
 
 #include <QString>
-
+#include <QTime>
 
 class User
 {
@@ -12,10 +12,9 @@ public:
         const QString &name,
         int imageId,
         int levelCompleted,
-        const clock_t fastestCompleted,
-        const time_t totalTimePlayed
+        qint64 fastestCompleted,
+        qint64 totalTimePlayed
         );
-
 
     int getUserId() const;
 
@@ -25,18 +24,21 @@ public:
     void setImageId(int newImageId);
     int getLevelCompleted() const;
     void setLevelCompleted(int newLevelCompleted);
-    clock_t getFastestCompleted() const;
-    void setFastestCompleted(clock_t newFastestCompleted);
-    time_t getTotalTimePlayed() const;
-    void setTotalTimePlayed(time_t newTotalTimePlayed);
+    qint64 getFastestCompleted() const;
+    void setFastestCompleted(qint64 newFastestCompleted);
+    qint64 getTotalTimePlayed() const;
+    void setTotalTimePlayed(qint64 newTotalTimePlayed);
+
+    QTime getFastestCompletedTime() const;
+    QTime getTotalTimePlayedTime() const;
 
 private:
     int userId;
     QString name;
     int imageId;
     int levelCompleted;
-    clock_t fastestCompleted;
-    time_t totalTimePlayed;
+    qint64 fastestCompleted;
+    qint64 totalTimePlayed;
 };
 
 #endif // USER_H

@@ -2,6 +2,7 @@
 #include "CSVUserDAO.h"
 #include "UserItemWidget.h"
 #include "clickablelabel.h"
+#include "customscrollarea.h"
 #include <QGraphicsTextItem>
 #include <QPushButton>
 #include <QListWidget>
@@ -9,10 +10,16 @@
 #include <QLineEdit>
 #include <QGraphicsGridLayout>
 #include <QGraphicsProxyWidget>
-#include <iostream>
+#include <QDebug>
+#include <QAbstractScrollArea>
+#include <QScrollArea>
+#include <QScrollBar>
+#include <QTime>
+#include <QHBoxLayout>
 
 Frame::Frame(QWidget *parent)
-    : QGraphicsView(parent), scene(new QGraphicsScene(this)) {
+    : QGraphicsView(parent), scene(new QGraphicsScene(this))
+{
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setFixedSize(1600, 900);
@@ -21,7 +28,8 @@ Frame::Frame(QWidget *parent)
     setScene(scene);
 }
 
-void Frame::hideCurrentItems() {
+void Frame::hideCurrentItems()
+{
     for (auto item : currentItems) {
         item->setVisible(false);
     }
@@ -30,7 +38,8 @@ void Frame::hideCurrentItems() {
     }
 }
 
-void Frame::showMainMenu() {
+void Frame::showMainMenu()
+{
     hideCurrentItems();
 
     // display title text
@@ -62,34 +71,50 @@ void Frame::showMainMenu() {
     currentWidgets.append(LevelEditorButton);
 }
 
-void Frame::showProfileSelectionScreen() {
+void Frame::showProfileSelectionScreen()
+{
     hideCurrentItems();
 
-    QListWidget *userList = new QListWidget();
-    int ulxPos = this->width()/2 - 750;
-    int ulyPos = 32;
-    userList->setGeometry(ulxPos, ulyPos, 1500, 800);
-    scene->addWidget(userList);
-    currentWidgets.append(userList);
+    CustomScrollArea *scrollArea = new CustomScrollArea();
+    QWidget *container = new QWidget();
+    QHBoxLayout *layout = new QHBoxLayout(container);
 
     CSVUserDAO userDAO("users.csv");
     std::vector<User> users = userDAO.getAllUsers();
 
-    for (const User &user : users) {
-        QListWidgetItem *listItem = new QListWidgetItem(userList);
+    for (const User &user : users)
+    {
         UserItemWidget *userWidget = new UserItemWidget(user);
 
         connect(userWidget, &UserItemWidget::selectUser, this, &Frame::selectUser);
         connect(userWidget, &UserItemWidget::deleteUser, this, &Frame::deleteUser);
 
-        listItem->setSizeHint(userWidget->sizeHint());
-        userList->setItemWidget(listItem, userWidget);
+        layout->addWidget(userWidget);
     }
 
+    container->setLayout(layout);
+    scrollArea->setWidget(container);
+    scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAsNeeded);
+    scrollArea->setWidgetResizable(false);
+    scrollArea->setGeometry(this->width() / 2 - 700, 32, 1350, 800);
+    scene->addWidget(scrollArea);
+    currentWidgets.append(scrollArea);
+
+    // Back Button
+    QPushButton *backButton = new QPushButton(QString("Back"));
+    int bbxPos = 32;
+    int bbyPos = this->height() - 48;
+    backButton->setGeometry(bbxPos, bbyPos, 250, 32);
+    connect(backButton, &QPushButton::clicked, this, &Frame::showMainMenu);
+    scene->addWidget(backButton);
+    currentWidgets.append(backButton);
+
+    // Create Profile Button
     QPushButton *createProfileButton = new QPushButton(QString("Create Profile"));
-    int cpbxPos = this->width() - 250 - 16;
-    int cpbyPos = this->height() - 36 - 16;
-    createProfileButton->setGeometry(cpbxPos, cpbyPos, 250, 36);
+    int cpbxPos = this->width() - 266;
+    int cpbyPos = this->height() - 48;
+    createProfileButton->setGeometry(cpbxPos, cpbyPos, 250, 32);
     connect(createProfileButton, &QPushButton::clicked, this, &Frame::showProfileCreationOverlay);
     scene->addWidget(createProfileButton);
     currentWidgets.append(createProfileButton);
@@ -121,11 +146,17 @@ void Frame::showProfileCreationOverlay()
     nameInput->setStyleSheet("padding: 2em;");
     nameInput->setFixedWidth(wbWidth /2 - 16);
     int niWidth = nameInput->width();
-    QGraphicsProxyWidget *nameInputProxy = scene->addWidget(nameInput);
+    nameInputProxy = scene->addWidget(nameInput);
     nameInputProxy->setPos(wbxPos + 470, wbyPos + 64);
 
+    // Add a error message box
+    errorMsgLabel = new QLabel("");
+    errorMsgLabel->setStyleSheet("background-color:transparent; color: red");
+    errorMsgLabel->setVisible(false);
+    errorMsgLabelProxy = scene->addWidget(errorMsgLabel);
+    errorMsgLabelProxy->setPos(wbxPos + 470, wbyPos + 150);
 
-    // TODO: Add a 2x5 grid of images
+    // Add a 2x5 grid of images
     QGraphicsWidget *gridContainer = new QGraphicsWidget();
     QGraphicsGridLayout *gridLayout = new QGraphicsGridLayout();
 
@@ -224,12 +255,22 @@ void Frame::showConfirmationOverlay()
     overlayConfirmationView->show();
 }
 
-void Frame::selectUser(int userId) {
-    // Handle user selection
-    std::cout << "Selected User ID: " << userId << std::endl;
+void Frame::showDifficultySelectionScreen()
+{
+    hideCurrentItems();
 }
 
-void Frame::deleteUser(int userId) {
+void Frame::selectUser(int userId)
+{
+    // Handle user selection
+    qDebug() << "Selected User ID: " << userId;
+    qDebug() << "Current Time: " << currentTime.toString();
+    currentUserId = userId;
+
+}
+
+void Frame::deleteUser(int userId)
+{
     // Handle user deletion
     CSVUserDAO userDAO("users.csv");
     userDAO.deleteUser(userId);
@@ -262,16 +303,13 @@ void Frame::updateHeroImage(const QString &imagePath)
 
 void Frame::handleRegistrationFailure(const QString &message)
 {
+    qDebug() << "The following message is passed:" << message;
     destroyConfirmationOverlay();
 
-    nameInput->setStyleSheet("border: 2px red solid;padding: 2em;");
-    QGraphicsTextItem *warningText = new QGraphicsTextItem(message);
-    QFont warningFont("Arial", 12);
-    warningText->setFont(warningFont);
-    warningText->setDefaultTextColor(Qt::red);
-    QGraphicsProxyWidget *nameInputProxy = scene->addWidget(nameInput);
-    nameInputProxy->setPos(nameInput->x(), nameInput->y() + nameInput->height() + 16);
-    scene->addItem(warningText);
+    nameInput->setStyleSheet("border: 2px solid red; padding: 2em;");
+
+    errorMsgLabel->setText(message);
+    errorMsgLabel->setVisible(true);
 }
 
 void Frame::handleRegistrationSuccess()

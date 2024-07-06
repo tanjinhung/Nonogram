@@ -5,6 +5,8 @@
 #include <QGraphicsScene>
 #include <QLabel>
 #include <QLineEdit>
+#include <QListWidget>
+#include <QTime>
 
 class Frame : public QGraphicsView
 {
@@ -17,6 +19,7 @@ public:
     // void showLevelEditorScreen();
     void showProfileCreationOverlay();
     void showConfirmationOverlay();
+    void showDifficultySelectionScreen();
 
     QGraphicsScene* scene;
 
@@ -43,12 +46,18 @@ private:
     QGraphicsView *overlayProfileView;
     QGraphicsView *overlayConfirmationView;
     QLineEdit *nameInput;
+    QGraphicsProxyWidget *nameInputProxy;
+    QLabel *errorMsgLabel;
+    QGraphicsProxyWidget *errorMsgLabelProxy;
 
     int wbWidth = 1000;
     int wbHeight = 600;
     int wbxPos = this->width() / 2 - wbWidth / 2;
     int wbyPos = this->width() / 2 - wbHeight / 2;
     int selectedImageNumber = 1;
+
+    QTime currentTime = QTime::currentTime();
+    int currentUserId;
 
     void hideCurrentItems();
 };

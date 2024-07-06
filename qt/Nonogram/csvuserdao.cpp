@@ -24,8 +24,8 @@ std::vector<User> CSVUserDAO::getAllUsers() const {  // Ensure this matches the 
                       fields[1],
                       fields[2].toInt(),
                       fields[3].toInt(),
-                      static_cast<clock_t>(fields[4].toLongLong()),
-                      static_cast<time_t>(fields[5].toLongLong()));
+                      static_cast<qint64>(fields[4].toLongLong()),
+                      static_cast<qint64>(fields[5].toLongLong()));
             users.push_back(user);
         }
     }
