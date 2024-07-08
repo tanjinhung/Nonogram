@@ -56,8 +56,9 @@ private:
     int wbyPos = this->width() / 2 - wbHeight / 2;
     int selectedImageNumber = 1;
 
-    QTime currentTime = QTime::currentTime();
+    QTime startTime;
     int currentUserId;
+    QStringList difficulties = { "Easy", "Normal", "Hard", "Extreme", "Hell", "Custom" };
 
     void hideCurrentItems();
 };

@@ -258,15 +258,67 @@ void Frame::showConfirmationOverlay()
 void Frame::showDifficultySelectionScreen()
 {
     hideCurrentItems();
+
+    QGraphicsTextItem *difficultyTitle = new QGraphicsTextItem("Difficulty");
+    QFont difficultyFont("Courier New", 36);
+    difficultyTitle->setFont(difficultyFont);
+    difficultyTitle->setPos(this->width() / 2 - difficultyTitle->boundingRect().width() / 2, 64);
+    scene->addItem(difficultyTitle);
+    currentItems.append(difficultyTitle);
+
+    QGraphicsWidget *gridContainer = new QGraphicsWidget();
+    QGraphicsGridLayout *gridLayout = new QGraphicsGridLayout();
+
+    for (int i = 0; i < 2; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            int numDifficulty = i * 3 + j;
+            QString difficulty = QString("%1").arg(difficulties[numDifficulty]);
+            QPushButton *difficultyButton = new QPushButton(difficulty);
+            difficultyButton->setStyleSheet("padding: 2em;");
+            difficultyButton->setFixedWidth(400);
+            connect(difficultyButton, &QPushButton::clicked, [difficulty] {
+                qDebug() << "Selected difficulty:" << difficulty;
+            });
+            QGraphicsProxyWidget *difficultyButtonProxy = new QGraphicsProxyWidget();
+            difficultyButtonProxy->setWidget(difficultyButton);
+            gridLayout->addItem(difficultyButtonProxy, j, i);
+            gridLayout->setColumnSpacing(i, 64);
+            gridLayout->setRowSpacing(j, 64);
+        }
+    }
+
+    gridContainer->setLayout(gridLayout);
+    gridContainer->setPos(this->width() / 2 - 432, 200); // Position the grid below the hero image and input
+    scene->addItem(gridContainer);
+    currentItems.append(gridContainer);
+
+    // Back Button
+    QPushButton *backButton = new QPushButton(QString("Back"));
+    int bbxPos = 32;
+    int bbyPos = this->height() - 48;
+    backButton->setGeometry(bbxPos, bbyPos, 250, 32);
+    connect(backButton, &QPushButton::clicked, this, &Frame::showMainMenu);
+    scene->addWidget(backButton);
+    currentWidgets.append(backButton);
+
+    // TODO: HighScore
+    QPushButton *createProfileButton = new QPushButton(QString("Highscore"));
+    int cpbxPos = this->width() - 266;
+    int cpbyPos = this->height() - 48;
+    createProfileButton->setGeometry(cpbxPos, cpbyPos, 250, 32);
+    // connect(createProfileButton, &QPushButton::clicked, this, &Frame::showProfileCreationOverlay);
+    scene->addWidget(createProfileButton);
+    currentWidgets.append(createProfileButton);
 }
 
 void Frame::selectUser(int userId)
 {
     // Handle user selection
-    qDebug() << "Selected User ID: " << userId;
-    qDebug() << "Current Time: " << currentTime.toString();
     currentUserId = userId;
-
+    startTime = QTime::currentTime();
+    qDebug() << "Current User ID: " << currentUserId;
+    qDebug() << "Current Time: " << startTime.toString();
+    showDifficultySelectionScreen();
 }
 
 void Frame::deleteUser(int userId)
