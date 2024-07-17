@@ -30,14 +30,14 @@ UserItemWidget::UserItemWidget(const User &user, QWidget *parent)
     scene->addItem(levelCompletedText);
 
     QGraphicsTextItem *fastestCompletedText = new QGraphicsTextItem(
-        QString("Fastest Completed: %1").arg(user.getFastestCompletedTime().toString("hh:mm:ss"))
+        QString("Fastest Completed: %1").arg(user.getFastestCompletedTime().toString("mm:ss.zzz"))
     );
     fastestCompletedText->setFont(nameFont);
     fastestCompletedText->setPos(0, 600);
     scene->addItem(fastestCompletedText);
 
     QGraphicsTextItem *totalTimePlayedText = new QGraphicsTextItem(
-        QString("Total Time Played: %1").arg(user.getTotalTimePlayedTime().toString("hh:mm:ss"))
+        QString("Total Time Played: %1").arg(user.getTotalTimePlayed())
     );
     totalTimePlayedText->setFont(nameFont);
     totalTimePlayedText->setPos(0, 650);

@@ -88,3 +88,44 @@ int CSVUserDAO::getNextUserId() const
     }
     return maxId + 1;
 }
+
+User CSVUserDAO::getUserById(int userId) const {
+    std::vector<User> users = getAllUsers();
+    for (const User &user : users) {
+        if (user.getUserId() == userId) {
+            return user;
+        }
+    }
+    return User(-1, "Unnamed", -1, 0, 0, 0); // Return a default user if not found
+}
+
+void CSVUserDAO::updateUser(const User &updatedUser) {
+    std::vector<User> users = getAllUsers();
+    QFile file(filename);
+
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        qDebug() << "Failed to open file for writing:" << filename;
+        return;
+    }
+
+    QTextStream out(&file);
+    for (const User &user : users) {
+        if (user.getUserId() == updatedUser.getUserId()) {
+            out << updatedUser.getUserId() << ","
+                << updatedUser.getName() << ","
+                << updatedUser.getImageId() << ","
+                << updatedUser.getLevelCompleted() << ","
+                << static_cast<qint64>(updatedUser.getFastestCompleted()) << ","
+                << static_cast<qint64>(updatedUser.getTotalTimePlayed()) << "\n";
+        } else {
+            out << user.getUserId() << ","
+                << user.getName() << ","
+                << user.getImageId() << ","
+                << user.getLevelCompleted() << ","
+                << static_cast<qint64>(user.getFastestCompleted()) << ","
+                << static_cast<qint64>(user.getTotalTimePlayed()) << "\n";
+        }
+    }
+
+    file.close();
+}

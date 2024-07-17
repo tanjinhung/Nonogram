@@ -1,6 +1,11 @@
 #ifndef FRAME_H
 #define FRAME_H
 
+#include "editorlevel.h"
+#include "level.h"
+#include "difficulty.h"
+#include "editorflag.h"
+#include "customtile.h"
 #include <QGraphicsView>
 #include <QGraphicsScene>
 #include <QLabel>
@@ -16,19 +21,34 @@ public:
 
     void showMainMenu();
     void showProfileSelectionScreen();
-    // void showLevelEditorScreen();
+    void showLevelEditorScreen(EditorLevel *editorLevel);
     void showProfileCreationOverlay();
-    void showConfirmationOverlay();
-    void showDifficultySelectionScreen();
+    void showConfirmationOverlay(const QString &message, std::function<void()> onConfirm);
+    void showDifficultySelectionScreen(Flag flag);
+    void showPlayScreen(const Level &level);
+    void showFinishOverlay(const QString &message, const QString &acceptMsg ,std::function<void()> onAccept);
+    void showHighscoreOverlay();
 
     QGraphicsScene* scene;
 
 signals:
     void registerUser(const QString &name, int imageNumber);
+    void updateTotalTimePlayed(int currentUserId, int timeElapsed);
+    void confirmUserDeletion(int userId);
+    void registerDifficulty(Difficulty difficulty, Flag flag);
+    void registerTileClicked(int button, CustomTile *tile);
+    void registerFinishGame();
+    void clearGrid();
+    void resumeGameTimer();
+    void registerScore(int currentUserId);
+    void createLevelEditor();
 
 public slots:
     void handleRegistrationFailure(const QString &message);
     void handleRegistrationSuccess();
+    void handleLevelCreated(const Level &level);
+    void handleLevelEditorCreated(EditorLevel *editorLevel);
+    void handleLevelChecked(bool result);
 
 private slots:
     void selectUser(int userId);
@@ -36,6 +56,8 @@ private slots:
     void destroyProfileOverlay();
     void destroyConfirmationOverlay();
     void destroyOverlay();
+    void destroyFinishOverlay();
+    void destroyHighscoreOverlay();
     void updateHeroImage(const QString &imagePath);
 
 
@@ -45,6 +67,8 @@ private:
     QLabel *heroImageLabel;
     QGraphicsView *overlayProfileView;
     QGraphicsView *overlayConfirmationView;
+    QGraphicsView *overlayFinishView;
+    QGraphicsView *overlayHighscoreView;
     QLineEdit *nameInput;
     QGraphicsProxyWidget *nameInputProxy;
     QLabel *errorMsgLabel;
@@ -58,7 +82,8 @@ private:
 
     QTime startTime;
     int currentUserId;
-    QStringList difficulties = { "Easy", "Normal", "Hard", "Extreme", "Hell", "Custom" };
+
+    Difficulty currentDifficulty;
 
     void hideCurrentItems();
 };

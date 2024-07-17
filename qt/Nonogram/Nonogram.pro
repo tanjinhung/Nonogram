@@ -10,20 +10,35 @@ CONFIG += c++17
 
 SOURCES += \
     clickablelabel.cpp \
+    csvscoredao.cpp \
     csvuserdao.cpp \
     customscrollarea.cpp \
+    customtile.cpp \
+    editorlevel.cpp \
     frame.cpp \
+    gamecontroller.cpp \
+    level.cpp \
     main.cpp \
     profilecontroller.cpp \
+    score.cpp \
     user.cpp \
     useritemwidget.cpp
 
 HEADERS += \
     clickablelabel.h \
+    csvscoredao.h \
     csvuserdao.h \
     customscrollarea.h \
+    customtile.h \
+    difficulty.h \
+    editorflag.h \
+    editorlevel.h \
     frame.h \
+    gamecontroller.h \
+    level.h \
     profilecontroller.h \
+    score.h \
+    scoredao.h \
     user.h \
     userdao.h \
     useritemwidget.h

@@ -34,7 +34,6 @@ Frame::Frame(QWidget *parent)
 
     connect(QCoreApplication::instance(), &QCoreApplication::aboutToQuit, this, [this]{
         int timeElapsed = startTime.msecsTo(QTime::currentTime());
-        qDebug() << "Time Diffrence: " << timeElapsed;
         emit updateTotalTimePlayed(currentUserId, timeElapsed);
     });
 }
@@ -64,22 +63,22 @@ void Frame::showMainMenu()
     currentItems.append(titleText);
 
     // Create Play button
-    QPushButton *PlayButton = new QPushButton(QString("Play"));
+    QPushButton *playButton = new QPushButton(QString("Play"));
     int pbxPos = this->width()/2 - 250;
     int pbyPos = 500;
-    PlayButton->setGeometry(pbxPos, pbyPos, 500, 64);
-    connect(PlayButton, &QPushButton::clicked, this, &Frame::showProfileSelectionScreen);
-    scene->addWidget(PlayButton);
-    currentWidgets.append(PlayButton);
+    playButton->setGeometry(pbxPos, pbyPos, 500, 64);
+    connect(playButton, &QPushButton::clicked, this, &Frame::showProfileSelectionScreen);
+    scene->addWidget(playButton);
+    currentWidgets.append(playButton);
 
     // Create Level Editor button
-    QPushButton *LevelEditorButton = new QPushButton(QString("Level Editor"));
+    QPushButton *levelEditorButton = new QPushButton(QString("Level Editor"));
     int lebxPos = this->width()/2 - 250;
     int lebyPos = 600;
-    LevelEditorButton->setGeometry(lebxPos, lebyPos, 500, 64);
-    connect(LevelEditorButton, &QPushButton::clicked, this, &Frame::createLevelEditor);
-    scene->addWidget(LevelEditorButton);
-    currentWidgets.append(LevelEditorButton);
+    levelEditorButton->setGeometry(lebxPos, lebyPos, 500, 64);
+    // connect(LevelEditorButton, &QPushButton::clicked, this, &Frame::showLevelEditorScreen);
+    scene->addWidget(levelEditorButton);
+    currentWidgets.append(levelEditorButton);
 
     // Create Exit button
     QPushButton *exitButton = new QPushButton("Exit");
@@ -137,14 +136,6 @@ void Frame::showProfileSelectionScreen()
     connect(createProfileButton, &QPushButton::clicked, this, &Frame::showProfileCreationOverlay);
     scene->addWidget(createProfileButton);
     currentWidgets.append(createProfileButton);
-}
-
-void Frame::showLevelEditorScreen(EditorLevel *editorLevel)
-{
-    hideCurrentItems();
-
-    qDebug() << "Showing Level Editor Screen";
-
 }
 
 void Frame::showProfileCreationOverlay()
@@ -292,7 +283,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
     overlayConfirmationView->show();
 }
 
-void Frame::showDifficultySelectionScreen(Flag flag)
+void Frame::showDifficultySelectionScreen()
 {
     hideCurrentItems();
 
@@ -318,10 +309,10 @@ void Frame::showDifficultySelectionScreen(Flag flag)
             QPushButton *difficultyButton = new QPushButton(difficultyToString(difficulty));
             difficultyButton->setStyleSheet("padding: 2em;");
             difficultyButton->setFixedWidth(400);
-            connect(difficultyButton, &QPushButton::clicked, this, [this, difficulty, flag] {
+            connect(difficultyButton, &QPushButton::clicked, this, [this, difficulty] {
                 qDebug() << "Selected difficulty:" << difficultyToString(difficulty);
                 currentDifficulty = difficulty;
-                emit registerDifficulty(currentDifficulty, flag);
+                emit registerDifficulty(currentDifficulty);
             });
             QGraphicsProxyWidget *difficultyButtonProxy = new QGraphicsProxyWidget();
             difficultyButtonProxy->setWidget(difficultyButton);
@@ -343,7 +334,6 @@ void Frame::showDifficultySelectionScreen(Flag flag)
     backButton->setGeometry(bbxPos, bbyPos, 250, 32);
     connect(backButton, &QPushButton::clicked, this, [this] {
         int timeElapsed = startTime.msecsTo(QTime::currentTime());
-        qDebug() << "Time Diffrence: " << timeElapsed;
         emit updateTotalTimePlayed(currentUserId, timeElapsed);
         showProfileSelectionScreen();
     });
@@ -432,9 +422,7 @@ void Frame::showPlayScreen(const Level &level)
     // Back button
     QPushButton *backButton = new QPushButton(QString("Back"));
     backButton->setGeometry(32, this->height() - 48, 250, 32);
-    connect(backButton, &QPushButton::clicked, this, [this]{
-        showDifficultySelectionScreen(Flag::DEFAULT);
-    });
+    connect(backButton, &QPushButton::clicked, this, &Frame::showDifficultySelectionScreen);
     scene->addWidget(backButton);
     currentWidgets.append(backButton);
 
@@ -459,7 +447,7 @@ void Frame::showPlayScreen(const Level &level)
     resetButton->setGeometry(890, this->height() - 48, 250, 32);
     connect(resetButton, &QPushButton::clicked, this, [this, resetButton]{
         resetButton->setEnabled(false);
-        emit registerDifficulty(currentDifficulty, Flag::DEFAULT);
+        emit registerDifficulty(currentDifficulty);
         QTimer::singleShot(200, resetButton, [resetButton](){
             resetButton->setEnabled(true);
         });
@@ -504,7 +492,7 @@ void Frame::showFinishOverlay(const QString &message, const QString &acceptMsg, 
     exitButton->setStyleSheet("padding: 1em;");
     exitButton->setFixedWidth(200);
     connect(exitButton, &QPushButton::clicked, this, [this]{
-        showDifficultySelectionScreen(Flag::DEFAULT);
+        showDifficultySelectionScreen();
         destroyFinishOverlay();
     });
     QGraphicsProxyWidget *exitButtonProxy = scene->addWidget(exitButton);
@@ -571,6 +559,7 @@ void Frame::showHighscoreOverlay()
         layoutMap.insert(diffStr, layout);
 
         QWidget *scrollAreaWidget = new QWidget();
+        layout->setAlignment(Qt::AlignTop);
         scrollAreaWidget->setLayout(layout);
         QScrollArea *scrollArea = new QScrollArea();
         scrollArea->setWidget(scrollAreaWidget);
@@ -606,6 +595,14 @@ void Frame::showHighscoreOverlay()
         }
     }
 
+    for (auto it = layoutMap.begin(); it != layoutMap.end(); ++it) {
+        if (it.value()->isEmpty()) {
+            QLabel *noScoresLabel = new QLabel("No scores yet");
+            noScoresLabel->setFixedHeight(32);
+            it.value()->addWidget(noScoresLabel);
+        }
+    }
+
     QGraphicsProxyWidget *tabWidgetProxy= scene->addWidget(tabWidget);
     tabWidgetProxy->setPos(this->width() / 2 - 234, this->height() / 2 - 368);
 
@@ -622,7 +619,7 @@ void Frame::selectUser(int userId)
     // Handle user selection
     currentUserId = userId;
     startTime = QTime::currentTime();
-    showDifficultySelectionScreen(Flag::DEFAULT);
+    showDifficultySelectionScreen();
 }
 
 void Frame::deleteUser(int userId)
@@ -693,18 +690,13 @@ void Frame::handleLevelCreated(const Level &level)
     showPlayScreen(level);
 }
 
-void Frame::handleLevelEditorCreated(EditorLevel *editorLevel)
-{
-    showLevelEditorScreen(editorLevel);
-}
-
 void Frame::handleLevelChecked(bool result)
 {
     qDebug() << "Checked result: " << result;
     if (result) {
         emit registerScore(currentUserId);
         showFinishOverlay("You Win!", "Again", [this]{
-            registerDifficulty(currentDifficulty, Flag::DEFAULT);
+            registerDifficulty(currentDifficulty);
             destroyFinishOverlay();
         });
     } else {
