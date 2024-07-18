@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     clickablelabel.cpp \
+    csvleveldao.cpp \
     csvscoredao.cpp \
     csvuserdao.cpp \
     customscrollarea.cpp \
@@ -26,6 +27,7 @@ SOURCES += \
 
 HEADERS += \
     clickablelabel.h \
+    csvleveldao.h \
     csvscoredao.h \
     csvuserdao.h \
     customscrollarea.h \
@@ -36,6 +38,7 @@ HEADERS += \
     frame.h \
     gamecontroller.h \
     level.h \
+    leveldao.h \
     profilecontroller.h \
     score.h \
     scoredao.h \

@@ -3,9 +3,10 @@
 #include <QTextStream>
 #include <QDebug>
 
-CSVScoreDAO::CSVScoreDAO(const QString& filename) : filename(filename) {}
+CSVScoreDAO::CSVScoreDAO(const QString &filename) : filename(filename) {}
 
-std::vector<Score> CSVScoreDAO::getAllScores() const {
+std::vector<Score> CSVScoreDAO::getAllScores() const
+{
     std::vector<Score> scores;
     QFile file(filename);
 

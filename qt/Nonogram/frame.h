@@ -23,10 +23,15 @@ public:
     void showProfileSelectionScreen();
     void showLevelEditorScreen(EditorLevel *editorLevel);
     void showProfileCreationOverlay();
-    void showConfirmationOverlay(const QString &message, std::function<void()> onConfirm);
-    void showDifficultySelectionScreen(Flag flag);
+    void showConfirmationOverlay(
+        const QString &message,
+        std::function<void()> onConfirm);
+    void showDifficultySelectionScreen();
     void showPlayScreen(const Level &level);
-    void showFinishOverlay(const QString &message, const QString &acceptMsg ,std::function<void()> onAccept);
+    void showFinishOverlay(
+        const QString &message,
+        const QString &acceptMsg ,
+        std::function<void()> onAccept);
     void showHighscoreOverlay();
 
     QGraphicsScene* scene;
@@ -35,19 +40,21 @@ signals:
     void registerUser(const QString &name, int imageNumber);
     void updateTotalTimePlayed(int currentUserId, int timeElapsed);
     void confirmUserDeletion(int userId);
-    void registerDifficulty(Difficulty difficulty, Flag flag);
+    void registerDifficulty(Difficulty difficulty);
     void registerTileClicked(int button, CustomTile *tile);
     void registerFinishGame();
     void clearGrid();
     void resumeGameTimer();
     void registerScore(int currentUserId);
-    void createLevelEditor();
+    void createLevelEditor(Flag flag);
+    void updateEditorFlag(Flag flag);
+    void publishLevel();
 
 public slots:
     void handleRegistrationFailure(const QString &message);
     void handleRegistrationSuccess();
     void handleLevelCreated(const Level &level);
-    void handleLevelEditorCreated(EditorLevel *editorLevel);
+    void handleLevelEditorCreated(EditorLevel &editorLevel);
     void handleLevelChecked(bool result);
 
 private slots:

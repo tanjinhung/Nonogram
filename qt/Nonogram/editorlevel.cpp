@@ -6,8 +6,9 @@ EditorLevel::EditorLevel(
     const std::vector<std::vector<int> > &rowHint,
     const std::vector<std::vector<int> > &colHint,
     const QString &difficulty,
-    int size
-) : Level(solutionGrid, currentGrid, rowHint, colHint, difficulty, size)
+    int size,
+    const QString &levelName
+    ) : Level(solutionGrid, currentGrid, rowHint, colHint, difficulty, size), levelName(levelName)
 {
 
 }
@@ -15,7 +16,8 @@ EditorLevel::EditorLevel(
 void EditorLevel::setSolutionTile(int row, int col, int val)
 {
     if (row >= 0 && row < getSize() && col >= 0 && col < getSize()) {
-        std::vector<std::vector<int>> &tempSolutionGrid = const_cast<std::vector<std::vector<int>>&>(getSolutionGrid());
+        std::vector<std::vector<int>> &tempSolutionGrid
+            = const_cast<std::vector<std::vector<int>>&>(getSolutionGrid());
         tempSolutionGrid[row][col] = val;
     }
 }
@@ -34,7 +36,7 @@ void EditorLevel::finalizeHint()
         {
             if (tempSolutionGrid[i][j] == 1)
             {
-                ++count;
+                count++;
             }
             else if (count > 0)
             {
@@ -56,7 +58,7 @@ void EditorLevel::finalizeHint()
         {
             if (tempSolutionGrid[i][j] == 1)
             {
-                ++count;
+                count++;
             }
             else if (count > 0)
             {
@@ -72,4 +74,14 @@ void EditorLevel::finalizeHint()
 
     setRowHint(tempRowHint);
     setColHint(tempColHint);
+}
+
+QString EditorLevel::getLevelName() const
+{
+    return levelName;
+}
+
+void EditorLevel::setLevelName(const QString &newLevelName)
+{
+    levelName = newLevelName;
 }

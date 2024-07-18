@@ -77,7 +77,9 @@ void Frame::showMainMenu()
     int lebxPos = this->width()/2 - 250;
     int lebyPos = 600;
     LevelEditorButton->setGeometry(lebxPos, lebyPos, 500, 64);
-    connect(LevelEditorButton, &QPushButton::clicked, this, &Frame::createLevelEditor);
+    connect(LevelEditorButton, &QPushButton::clicked, this, [this]{
+        emit createLevelEditor(Flag::EDITING);
+    });
     scene->addWidget(LevelEditorButton);
     currentWidgets.append(LevelEditorButton);
 
@@ -145,6 +147,85 @@ void Frame::showLevelEditorScreen(EditorLevel *editorLevel)
 
     qDebug() << "Showing Level Editor Screen";
 
+    // Create Play Grid
+    QGraphicsWidget *gridContainer = new QGraphicsWidget();
+    QGraphicsGridLayout *gridLayout = new QGraphicsGridLayout(gridContainer);
+
+    int size = editorLevel->getSize();
+
+    // Add row and column hints
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            // Add the game tiles
+            CustomTile *tile = new CustomTile(i, j);
+            gridLayout->addItem(tile, i + 1, j + 1);
+
+            connect(tile, &CustomTile::leftButtonClicked, this, [this, tile]() {
+                emit registerTileClicked(0, tile);
+            });
+
+            connect(tile, &CustomTile::middleButtonClicked, this, [this, tile]() {
+                emit registerTileClicked(2, tile);
+            });
+
+            connect(tile, &CustomTile::rightButtonClicked, this, [this, tile]() {
+                emit registerTileClicked(1, tile);
+            });
+        }
+    }
+
+    gridLayout->setParentLayoutItem(gridContainer);
+    gridContainer->setGeometry(
+        this->width() / 2 - 400,
+        this->height() / 2 - 450,
+        800, 800);
+    scene->addItem(gridContainer);
+    currentItems.append(gridContainer);
+
+    // Back button
+    QPushButton *backButton = new QPushButton(QString("Back"));
+    backButton->setGeometry(32, this->height() - 48, 250, 32);
+    connect(backButton, &QPushButton::clicked, this, [this]{
+        showMainMenu();
+        emit updateEditorFlag(Flag::DEFAULT);
+    });
+    scene->addWidget(backButton);
+    currentWidgets.append(backButton);
+
+    // Clear button
+    QPushButton *clearButton = new QPushButton(QString("Clear"));
+    clearButton->setGeometry(460, this->height() - 48, 250, 32);
+    connect(clearButton, &QPushButton::clicked, this, [this, gridContainer]{
+        qDebug() << "Clearing the grid...";
+        for (QGraphicsItem *items:gridContainer->childItems()) {
+            CustomTile *tile = dynamic_cast<CustomTile *>(items);
+            if (tile) {
+                tile->setColor(Qt::white);
+            }
+        }
+        emit clearGrid();
+    });
+    scene->addWidget(clearButton);
+    currentWidgets.append(clearButton);
+
+    // Resize button
+    QPushButton *resizeButton = new QPushButton(QString("Resize"));
+    resizeButton->setGeometry(890, this->height() - 48, 250, 32);
+    connect(resizeButton, &QPushButton::clicked, this, [this]{
+        showDifficultySelectionScreen();
+    });
+    scene->addWidget(resizeButton);
+    currentWidgets.append(resizeButton);
+
+    // Publish button
+    QPushButton *publishButton = new QPushButton(QString("Publish"));
+    publishButton->setGeometry(this->width() - 282, this->height() - 48, 250, 32);
+    connect(publishButton, &QPushButton::clicked, this, [this]{
+        emit publishLevel();
+        showMainMenu();
+    });
+    scene->addWidget(publishButton);
+    currentWidgets.append(publishButton);
 }
 
 void Frame::showProfileCreationOverlay()
@@ -164,7 +245,8 @@ void Frame::showProfileCreationOverlay()
     // Hero Image
     heroImageLabel = new QLabel();
     QPixmap heroImagePixmap(QString(":/image/1.png"));
-    heroImageLabel->setPixmap(heroImagePixmap.scaled(wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    heroImageLabel->setPixmap(heroImagePixmap.scaled(
+        wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
     QGraphicsProxyWidget *heroImageProxy = scene->addWidget(heroImageLabel);
     heroImageProxy->setPos(wbxPos + 32, wbyPos + 32);
 
@@ -208,7 +290,8 @@ void Frame::showProfileCreationOverlay()
             QPainter painter(&circularPixmap);
             painter.setRenderHint(QPainter::Antialiasing);
             painter.setClipPath(path);
-            painter.drawPixmap(0, -16, imagePixmap.scaled(130, 130, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+            painter.drawPixmap(
+                0, -16, imagePixmap.scaled(130, 130, Qt::KeepAspectRatio, Qt::SmoothTransformation));
 
             imageLabel->setPixmap(circularPixmap);
             QGraphicsProxyWidget *imageProxy = new QGraphicsProxyWidget();
@@ -292,7 +375,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
     overlayConfirmationView->show();
 }
 
-void Frame::showDifficultySelectionScreen(Flag flag)
+void Frame::showDifficultySelectionScreen()
 {
     hideCurrentItems();
 
@@ -308,7 +391,12 @@ void Frame::showDifficultySelectionScreen(Flag flag)
     QGraphicsWidget *gridContainer = new QGraphicsWidget();
     QGraphicsGridLayout *gridLayout = new QGraphicsGridLayout();
 
-    std::vector<Difficulty> difficulties = {Difficulty::Easy, Difficulty::Normal, Difficulty::Hard, Difficulty::Extreme, Difficulty::Hell, Difficulty::Custom};
+    std::vector<Difficulty> difficulties = {Difficulty::Easy,
+                                            Difficulty::Normal,
+                                            Difficulty::Hard,
+                                            Difficulty::Extreme,
+                                            Difficulty::Hell,
+                                            Difficulty::Custom};
 
     for (int i = 0; i < 2; ++i) {
         for (int j = 0; j < 3; ++j) {
@@ -318,10 +406,10 @@ void Frame::showDifficultySelectionScreen(Flag flag)
             QPushButton *difficultyButton = new QPushButton(difficultyToString(difficulty));
             difficultyButton->setStyleSheet("padding: 2em;");
             difficultyButton->setFixedWidth(400);
-            connect(difficultyButton, &QPushButton::clicked, this, [this, difficulty, flag] {
+            connect(difficultyButton, &QPushButton::clicked, this, [this, difficulty] {
                 qDebug() << "Selected difficulty:" << difficultyToString(difficulty);
                 currentDifficulty = difficulty;
-                emit registerDifficulty(currentDifficulty, flag);
+                emit registerDifficulty(currentDifficulty);
             });
             QGraphicsProxyWidget *difficultyButtonProxy = new QGraphicsProxyWidget();
             difficultyButtonProxy->setWidget(difficultyButton);
@@ -350,7 +438,7 @@ void Frame::showDifficultySelectionScreen(Flag flag)
     scene->addWidget(backButton);
     currentWidgets.append(backButton);
 
-    // TODO: HighScore
+    // HighScore Button
     QPushButton *createProfileButton = new QPushButton(QString("Highscore"));
     int cpbxPos = this->width() - 282;
     int cpbyPos = this->height() - 48;
@@ -425,7 +513,10 @@ void Frame::showPlayScreen(const Level &level)
     }
 
     gridLayout->setParentLayoutItem(gridContainer);
-    gridContainer->setGeometry(this->width() / 2 - 400, this->height() / 2 - 450, 800, 800);
+    gridContainer->setGeometry(
+        this->width() / 2 - 400,
+        this->height() / 2 - 450,
+        800, 800);
     scene->addItem(gridContainer);
     currentItems.append(gridContainer);
 
@@ -433,7 +524,7 @@ void Frame::showPlayScreen(const Level &level)
     QPushButton *backButton = new QPushButton(QString("Back"));
     backButton->setGeometry(32, this->height() - 48, 250, 32);
     connect(backButton, &QPushButton::clicked, this, [this]{
-        showDifficultySelectionScreen(Flag::DEFAULT);
+        showDifficultySelectionScreen();
     });
     scene->addWidget(backButton);
     currentWidgets.append(backButton);
@@ -459,7 +550,7 @@ void Frame::showPlayScreen(const Level &level)
     resetButton->setGeometry(890, this->height() - 48, 250, 32);
     connect(resetButton, &QPushButton::clicked, this, [this, resetButton]{
         resetButton->setEnabled(false);
-        emit registerDifficulty(currentDifficulty, Flag::DEFAULT);
+        emit registerDifficulty(currentDifficulty);
         QTimer::singleShot(200, resetButton, [resetButton](){
             resetButton->setEnabled(true);
         });
@@ -477,7 +568,10 @@ void Frame::showPlayScreen(const Level &level)
     currentWidgets.append(finishButton);
 }
 
-void Frame::showFinishOverlay(const QString &message, const QString &acceptMsg, std::function<void ()> onAccept)
+void Frame::showFinishOverlay(
+    const QString &message,
+    const QString &acceptMsg,
+    std::function<void ()> onAccept)
 {
     // Creating the overlay
     QGraphicsScene *scene = new QGraphicsScene(this);
@@ -504,7 +598,7 @@ void Frame::showFinishOverlay(const QString &message, const QString &acceptMsg, 
     exitButton->setStyleSheet("padding: 1em;");
     exitButton->setFixedWidth(200);
     connect(exitButton, &QPushButton::clicked, this, [this]{
-        showDifficultySelectionScreen(Flag::DEFAULT);
+        showDifficultySelectionScreen();
         destroyFinishOverlay();
     });
     QGraphicsProxyWidget *exitButtonProxy = scene->addWidget(exitButton);
@@ -531,7 +625,10 @@ void Frame::showHighscoreOverlay()
     overlayHighscoreView->setStyleSheet("background-color: rgba(0, 0, 0, 150);");
 
     QGraphicsRectItem *highscoreBackground = new QGraphicsRectItem();
-    highscoreBackground->setRect(this->width() / 2 - 250, this->height() / 2 - 400, 500, 800);
+    highscoreBackground->setRect(
+        this->width() / 2 - 250,
+        this->height() / 2 - 400,
+        500, 800);
     highscoreBackground->setBrush(QBrush(palette().color(QPalette::Window)));
     highscoreBackground->setPen(Qt::NoPen);
     scene->addItem(highscoreBackground);
@@ -540,7 +637,9 @@ void Frame::showHighscoreOverlay()
     std::vector<Score> scores = scoreDAO.getAllScores();
     std::vector<Score> sortedScores = scores;
 
-    std::sort(sortedScores.begin(), sortedScores.end(), [](const Score& a, const Score& b) {
+    std::sort(sortedScores.begin(),
+              sortedScores.end(),
+              [](const Score& a, const Score& b) {
         QString diffA = a.getLevelDifficulty();
         QString diffB = b.getLevelDifficulty();
         if (diffA == diffB) {
@@ -559,7 +658,11 @@ void Frame::showHighscoreOverlay()
     QMap<QString, QVBoxLayout*> layoutMap;
 
     // List of Difficulty enum values
-    Difficulty difficulties[] = {Difficulty::Easy, Difficulty::Normal, Difficulty::Hard, Difficulty::Extreme, Difficulty::Hell};
+    Difficulty difficulties[] = {Difficulty::Easy,
+                                 Difficulty::Normal,
+                                 Difficulty::Hard,
+                                 Difficulty::Extreme,
+                                 Difficulty::Hell};
 
     // Iterate through the Difficulty enum values to create tabs
     for (Difficulty diff : difficulties) {
@@ -571,6 +674,7 @@ void Frame::showHighscoreOverlay()
         layoutMap.insert(diffStr, layout);
 
         QWidget *scrollAreaWidget = new QWidget();
+        layout->setAlignment(Qt::AlignTop);
         scrollAreaWidget->setLayout(layout);
         QScrollArea *scrollArea = new QScrollArea();
         scrollArea->setWidget(scrollAreaWidget);
@@ -585,7 +689,9 @@ void Frame::showHighscoreOverlay()
     for (const Score &score : sortedScores) {
         QString diff = score.getLevelDifficulty();
         if (layoutMap.contains(diff)) {
-            QString timeString = QTime(0, 0, 0).addMSecs(score.getCompletionTime()).toString("mm:ss.zzz");
+            QString timeString = QTime(0, 0, 0)
+                                     .addMSecs(score.getCompletionTime())
+                                     .toString("hh:mm:ss.zzz");
 
             QWidget *scoreWidget = new QWidget();
             QHBoxLayout *scoreLayout = new QHBoxLayout(scoreWidget);
@@ -606,6 +712,14 @@ void Frame::showHighscoreOverlay()
         }
     }
 
+    for (auto it = layoutMap.begin(); it != layoutMap.end(); ++it) {
+        if (it.value()->isEmpty()) {
+            QLabel *noScoresLabel = new QLabel("No scores yet");
+            noScoresLabel->setFixedHeight(32);
+            it.value()->addWidget(noScoresLabel);
+        }
+    }
+
     QGraphicsProxyWidget *tabWidgetProxy= scene->addWidget(tabWidget);
     tabWidgetProxy->setPos(this->width() / 2 - 234, this->height() / 2 - 368);
 
@@ -622,7 +736,7 @@ void Frame::selectUser(int userId)
     // Handle user selection
     currentUserId = userId;
     startTime = QTime::currentTime();
-    showDifficultySelectionScreen(Flag::DEFAULT);
+    showDifficultySelectionScreen();
 }
 
 void Frame::deleteUser(int userId)
@@ -667,7 +781,8 @@ void Frame::destroyHighscoreOverlay()
 void Frame::updateHeroImage(const QString &imagePath)
 {
     QPixmap newPixmap(imagePath);
-    heroImageLabel->setPixmap(newPixmap.scaled(wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    heroImageLabel->setPixmap(
+        newPixmap.scaled(wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
 }
 
 void Frame::handleRegistrationFailure(const QString &message)
@@ -693,9 +808,9 @@ void Frame::handleLevelCreated(const Level &level)
     showPlayScreen(level);
 }
 
-void Frame::handleLevelEditorCreated(EditorLevel *editorLevel)
+void Frame::handleLevelEditorCreated(EditorLevel &editorLevel)
 {
-    showLevelEditorScreen(editorLevel);
+    showLevelEditorScreen(&editorLevel);
 }
 
 void Frame::handleLevelChecked(bool result)
@@ -704,7 +819,7 @@ void Frame::handleLevelChecked(bool result)
     if (result) {
         emit registerScore(currentUserId);
         showFinishOverlay("You Win!", "Again", [this]{
-            registerDifficulty(currentDifficulty, Flag::DEFAULT);
+            registerDifficulty(currentDifficulty);
             destroyFinishOverlay();
         });
     } else {

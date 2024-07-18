@@ -12,11 +12,18 @@ public:
         const std::vector<std::vector<int>> &rowHint,
         const std::vector<std::vector<int>> &colHint,
         const QString &difficulty,
-        int size
+        int size,
+        const QString &levelName
     );
 
     void setSolutionTile(int row, int col, int val);
     void finalizeHint();
+
+    QString getLevelName() const;
+    void setLevelName(const QString &newLevelName);
+
+private:
+    QString levelName;
 };
 
 #endif // EDITORLEVEL_H

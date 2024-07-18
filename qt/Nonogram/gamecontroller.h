@@ -18,19 +18,22 @@ public:
 
 signals:
     void levelCreated(const Level &level);
-    void levelEditorCreated(EditorLevel *editorLevel);
+    void levelEditorCreated(EditorLevel &editorLevel);
     void levelChecked(bool result);
     void getCurrentUser(int userId);
 
 public slots:
-    void handleDifficulty(Difficulty difficulty, Flag flag);
+    void handleDifficulty(Difficulty difficulty);
     void handleTileClicked(int button, CustomTile *tile);
     void handleFinishGame();
     void handleClearGrid();
     void resumeTimer();
     void registerScore(int userId);
     void handleReturnUser(User user);
-    void createLevelEditor();
+    void createLevelEditor(Flag flag);
+    void handleUpdateFlag(Flag flag);
+    void handlePublishLevel();
+    void handleLevelName(QString levelName);
 
 private:
     Difficulty currentDifficulty;
@@ -41,9 +44,11 @@ private:
     qint64 elapsedPausedTime;
     bool isTimerRunning;
     User currentUser;
+    Flag flag;
 
     void generateLevel();
     void createLevelEditor(Difficulty difficulty);
+    void printAllLevels() const;
 };
 
 #endif // GAMECONTROLLER_H
