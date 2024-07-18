@@ -8,13 +8,15 @@
 
 class CSVLevelDAO : public LevelDAO {
 public:
-    CSVLevelDAO(const QString &filename);
-
+    explicit CSVLevelDAO(const QString &filename);
     std::vector<EditorLevel> getAllLevels() const override;
     void insert(const EditorLevel &level) override;
+    QString generateUniqueLevelName(const QString &baseName) const;
+    bool levelNameExists(const QString &levelName) const;
 
 private:
     QString filename;
+
     std::vector<QString> parseCSVLine(const QString &line) const;
     QString levelToCSVString(const EditorLevel &level) const;
     std::vector<int> parseHintString(const QString &hintString) const;

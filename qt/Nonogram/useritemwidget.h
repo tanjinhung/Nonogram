@@ -26,6 +26,8 @@ private:
     QLabel *imageLabel;
     QPushButton *selectButton;
     QPushButton *deleteButton;
+
+    QString formatElapsedTime(qint64 milliseconds) const;
 };
 
 #endif // USERITEMWIDGET_H

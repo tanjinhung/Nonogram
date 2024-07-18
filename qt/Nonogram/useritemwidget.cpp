@@ -37,7 +37,7 @@ UserItemWidget::UserItemWidget(const User &user, QWidget *parent)
     scene->addItem(fastestCompletedText);
 
     QGraphicsTextItem *totalTimePlayedText = new QGraphicsTextItem(
-        QString("Total Time Played: %1").arg(user.getTotalTimePlayed())
+        QString("Total Time Played: %1").arg(formatElapsedTime(user.getTotalTimePlayed()))
     );
     totalTimePlayedText->setFont(nameFont);
     totalTimePlayedText->setPos(0, 650);
@@ -62,4 +62,17 @@ void UserItemWidget::onSelectButtonClicked() {
 
 void UserItemWidget::onDeleteButtonClicked() {
     emit deleteUser(userId);
+}
+
+QString UserItemWidget::formatElapsedTime(qint64 elapsedTimeInMillis) const {
+    int totalSeconds = elapsedTimeInMillis / 1000;
+
+    int hours = totalSeconds / 3600;
+    int minutes = (totalSeconds % 3600) / 60;
+    int seconds = totalSeconds % 60;
+
+    return QString("%1:%2:%3")
+        .arg(hours, 4, 10)
+        .arg(minutes, 2, 10, QChar('0'))
+        .arg(seconds, 2, 10, QChar('0'));
 }

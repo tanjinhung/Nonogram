@@ -1,7 +1,6 @@
 #include "frame.h"
 #include "profilecontroller.h"
 #include "gamecontroller.h"
-
 #include <QApplication>
 
 Frame *frame;

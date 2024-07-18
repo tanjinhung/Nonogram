@@ -23,24 +23,29 @@ QString CSVLevelDAO::levelToCSVString(const EditorLevel &level) const {
     // Serialize row hints
     QStringList rowHints;
     for (const auto &hints : level.getRowHint()) {
-        rowHints << "{" + hintToString(hints) + "}";
+        rowHints << hintToString(hints);
     }
-    fields << rowHints.join(' ');
+    fields << "{" + rowHints.join(' ') + "}";
 
     // Serialize column hints
     QStringList colHints;
     for (const auto &hints : level.getColHint()) {
-        colHints << "{" + hintToString(hints) + "}";
+        colHints << hintToString(hints);
     }
-    fields << colHints.join(' ');
+    fields << "{" + colHints.join(' ') + "}";
 
     return fields.join(',');
 }
 
 std::vector<int> CSVLevelDAO::parseHintString(const QString &hintString) const {
     std::vector<int> hints;
-    for (const QString &hint : hintString.split(' ')) {
-        hints.push_back(base36ToInt(hint));
+    QString currentHint;
+    for (QChar c : hintString) {
+        currentHint.append(c);
+        if (currentHint.length() == 1) {
+            hints.push_back(base36ToInt(currentHint));
+            currentHint.clear();
+        }
     }
     return hints;
 }
@@ -50,7 +55,7 @@ QString CSVLevelDAO::hintToString(const std::vector<int> &hint) const {
     for (int h : hint) {
         hintStrings << intToBase36(h);
     }
-    return hintStrings.join(' ');
+    return hintStrings.join("");
 }
 
 QString CSVLevelDAO::intToBase36(int num) const {
@@ -75,6 +80,16 @@ int CSVLevelDAO::base36ToInt(const QString &str) const {
     return result;
 }
 
+bool CSVLevelDAO::levelNameExists(const QString &levelName) const {
+    std::vector<EditorLevel> levels = getAllLevels();
+    for (const auto &level : levels) {
+        if (level.getLevelName() == levelName) {
+            return true;
+        }
+    }
+    return false;
+}
+
 std::vector<EditorLevel> CSVLevelDAO::getAllLevels() const {
     std::vector<EditorLevel> levels;
     QFile file(filename);
@@ -89,7 +104,7 @@ std::vector<EditorLevel> CSVLevelDAO::getAllLevels() const {
         QString line = in.readLine();
         auto fields = parseCSVLine(line);
 
-        if (fields.size() >= 4) {
+        if (fields.size() == 4) {
             QString levelName = fields[0];
             QString difficulty = fields[1];
             QString rowHintString = fields[2];
@@ -98,14 +113,14 @@ std::vector<EditorLevel> CSVLevelDAO::getAllLevels() const {
             std::vector<std::vector<int>> rowHints;
             std::vector<std::vector<int>> colHints;
 
-            // Parse row hints
+            // Remove braces and split the row hints
             rowHintString = rowHintString.mid(1, rowHintString.length() - 2); // Remove {}
             auto rowHintParts = rowHintString.split(' ');
             for (const auto &part : rowHintParts) {
                 rowHints.push_back(parseHintString(part));
             }
 
-            // Parse column hints
+            // Remove braces and split the column hints
             colHintString = colHintString.mid(1, colHintString.length() - 2); // Remove {}
             auto colHintParts = colHintString.split(' ');
             for (const auto &part : colHintParts) {
@@ -114,11 +129,6 @@ std::vector<EditorLevel> CSVLevelDAO::getAllLevels() const {
 
             EditorLevel level({}, {}, rowHints, colHints, difficulty, 0, levelName);
             levels.push_back(level);
-
-            qDebug() << "Loaded Level:" << levelName;
-            qDebug() << "Difficulty:" << difficulty;
-            qDebug() << "Row Hints:" << rowHints;
-            qDebug() << "Column Hints:" << colHints;
         }
     }
 
@@ -140,4 +150,14 @@ void CSVLevelDAO::insert(const EditorLevel &level) {
     qDebug() << "Inserted Level:" << level.getLevelName();
 
     file.close();
+}
+
+QString CSVLevelDAO::generateUniqueLevelName(const QString &baseName) const {
+    QString newName = baseName;
+    int counter = 1;
+    while (levelNameExists(newName)) {
+        newName = baseName + "_" + QString::number(counter);
+        ++counter;
+    }
+    return newName;
 }

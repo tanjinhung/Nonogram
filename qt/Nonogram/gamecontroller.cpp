@@ -112,6 +112,17 @@ void GameController::handlePublishLevel()
 {
     editorLevel->finalizeHint();
     CSVLevelDAO levelDAO("level.csv");
+
+    QString levelName = editorLevel->getLevelName();
+
+    if (levelName.isEmpty()) {
+        levelName = "untitled";
+    }
+    if (levelDAO.levelNameExists(levelName)) {
+        levelName = levelDAO.generateUniqueLevelName(levelName);
+        editorLevel->setLevelName(levelName);
+    }
+
     levelDAO.insert(*editorLevel);
     // printAllLevels();
 }
