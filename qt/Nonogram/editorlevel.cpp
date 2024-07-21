@@ -1,4 +1,7 @@
 #include "editorlevel.h"
+#include "difficulty.h"
+#include "qdebug.h"
+#include "nonogramsolver.h"
 
 EditorLevel::EditorLevel(
     const std::vector<std::vector<int> > &solutionGrid,
@@ -84,4 +87,38 @@ QString EditorLevel::getLevelName() const
 void EditorLevel::setLevelName(const QString &newLevelName)
 {
     levelName = newLevelName;
+}
+
+Level EditorLevel::toLevel() const
+{
+    qDebug() << "Starting toLevel conversion";
+    const int size = static_cast<int>(stringToDifficulty(getDifficulty()));
+    std::vector<std::vector<int>> emptyGrid(size, std::vector<int>(size, 0));
+
+    std::vector<std::vector<int>> rowHints = getRowHint();
+    std::vector<std::vector<int>> colHints = getColHint();
+    std::vector<std::vector<int>> solutionGrid = emptyGrid;
+
+    try {
+        NonogramSolver nonogramSolver(rowHints, colHints);
+
+        qDebug() << "Nonogram solver initialized";
+
+        if (nonogramSolver.solve()) {
+            qDebug() << "Nonogram solved successfully";
+            std::string solvedPuzzle = nonogramSolver.toStr();
+
+            for (int i = 0; i < size; ++i) {
+                for (int j = 0; j < size; ++j) {
+                    solutionGrid[i][j] = (solvedPuzzle[i * (size + 1) + j] == '#') ? 1 : 0;
+                }
+            }
+        } else {
+            qDebug() << "Nonogram solver failed to solve the puzzle";
+        }
+    } catch (const std::exception &e) {
+        qDebug() << "Exception caught in Nonogram solver:" << e.what();
+    }
+
+    return Level(solutionGrid, emptyGrid, rowHints, colHints, getDifficulty(), size);
 }

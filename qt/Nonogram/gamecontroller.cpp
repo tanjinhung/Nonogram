@@ -24,7 +24,11 @@ void GameController::handleDifficulty(Difficulty difficulty)
     switch (flag) {
     case Flag::DEFAULT:
         currentDifficulty = difficulty;
-        generateLevel();
+        if (currentDifficulty != Difficulty::Custom) {
+            generateLevel();
+        } else {
+            emit showCustomLevel();
+        }
         break;
     case Flag::EDITING:
         createLevelEditor(difficulty);
@@ -117,6 +121,8 @@ void GameController::handlePublishLevel()
 
     if (levelName.isEmpty()) {
         levelName = "untitled";
+        levelName = levelDAO.generateUniqueLevelName(levelName);
+        editorLevel->setLevelName(levelName);
     }
     if (levelDAO.levelNameExists(levelName)) {
         levelName = levelDAO.generateUniqueLevelName(levelName);
@@ -124,7 +130,6 @@ void GameController::handlePublishLevel()
     }
 
     levelDAO.insert(*editorLevel);
-    // printAllLevels();
 }
 
 void GameController::handleLevelName(QString levelName)

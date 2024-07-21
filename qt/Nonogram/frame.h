@@ -22,6 +22,7 @@ public:
     void showMainMenu();
     void showProfileSelectionScreen();
     void showLevelEditorScreen(EditorLevel *editorLevel);
+    void showLevelNameOverlay();
     void showProfileCreationOverlay();
     void showConfirmationOverlay(
         const QString &message,
@@ -33,6 +34,7 @@ public:
         const QString &acceptMsg ,
         std::function<void()> onAccept);
     void showHighscoreOverlay();
+    void showCustomLevelScreen();
 
     QGraphicsScene* scene;
 
@@ -49,6 +51,7 @@ signals:
     void createLevelEditor(Flag flag);
     void updateEditorFlag(Flag flag);
     void publishLevel();
+    void registerLevelName(QString levelName);
 
 public slots:
     void handleRegistrationFailure(const QString &message);
@@ -56,6 +59,7 @@ public slots:
     void handleLevelCreated(const Level &level);
     void handleLevelEditorCreated(EditorLevel &editorLevel);
     void handleLevelChecked(bool result);
+    void handleCustomLevel();
 
 private slots:
     void selectUser(int userId);
@@ -65,6 +69,7 @@ private slots:
     void destroyOverlay();
     void destroyFinishOverlay();
     void destroyHighscoreOverlay();
+    void destroyLevelNameOverlay();
     void updateHeroImage(const QString &imagePath);
 
 
@@ -76,15 +81,13 @@ private:
     QGraphicsView *overlayConfirmationView;
     QGraphicsView *overlayFinishView;
     QGraphicsView *overlayHighscoreView;
+    QGraphicsView *overlayLevelNameView;
     QLineEdit *nameInput;
     QGraphicsProxyWidget *nameInputProxy;
+    QLineEdit *levelNameInput;
     QLabel *errorMsgLabel;
     QGraphicsProxyWidget *errorMsgLabelProxy;
 
-    int wbWidth = 1000;
-    int wbHeight = 600;
-    int wbxPos = this->width() / 2 - wbWidth / 2;
-    int wbyPos = this->width() / 2 - wbHeight / 2;
     int selectedImageNumber = 1;
 
     QTime startTime;

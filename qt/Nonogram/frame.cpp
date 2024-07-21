@@ -6,6 +6,7 @@
 #include "customtile.h"
 #include "difficulty.h"
 #include "csvscoredao.h"
+#include "csvleveldao.h"
 #include <QGraphicsTextItem>
 #include <QPushButton>
 #include <QListWidget>
@@ -34,7 +35,6 @@ Frame::Frame(QWidget *parent)
 
     connect(QCoreApplication::instance(), &QCoreApplication::aboutToQuit, this, [this]{
         int timeElapsed = startTime.msecsTo(QTime::currentTime());
-        qDebug() << "Time Diffrence: " << timeElapsed;
         emit updateTotalTimePlayed(currentUserId, timeElapsed);
     });
 }
@@ -105,6 +105,7 @@ void Frame::showProfileSelectionScreen()
 
     for (const User &user : users)
     {
+        emit updateTotalTimePlayed(user.getUserId(), 0);
         UserItemWidget *userWidget = new UserItemWidget(user);
 
         connect(userWidget, &UserItemWidget::selectUser, this, &Frame::selectUser);
@@ -196,7 +197,6 @@ void Frame::showLevelEditorScreen(EditorLevel *editorLevel)
     QPushButton *clearButton = new QPushButton(QString("Clear"));
     clearButton->setGeometry(460, this->height() - 48, 250, 32);
     connect(clearButton, &QPushButton::clicked, this, [this, gridContainer]{
-        qDebug() << "Clearing the grid...";
         for (QGraphicsItem *items:gridContainer->childItems()) {
             CustomTile *tile = dynamic_cast<CustomTile *>(items);
             if (tile) {
@@ -221,11 +221,60 @@ void Frame::showLevelEditorScreen(EditorLevel *editorLevel)
     QPushButton *publishButton = new QPushButton(QString("Publish"));
     publishButton->setGeometry(this->width() - 282, this->height() - 48, 250, 32);
     connect(publishButton, &QPushButton::clicked, this, [this]{
-        emit publishLevel();
-        showMainMenu();
+        showLevelNameOverlay();
     });
     scene->addWidget(publishButton);
     currentWidgets.append(publishButton);
+}
+
+void Frame::showLevelNameOverlay()
+{
+    // Creating the overlay
+    QGraphicsScene *scene = new QGraphicsScene(this);
+    overlayLevelNameView = new QGraphicsView(scene, this);
+    overlayLevelNameView->setGeometry(0, 0, this->width(), this->height());
+    overlayLevelNameView->setStyleSheet("background-color: rgba(0, 0, 0, 150);");
+
+    // Add a background
+    QGraphicsRectItem *LevelNameBackground = new QGraphicsRectItem();
+    LevelNameBackground->setRect(this->width() / 2 - 1000 / 2 - 250, this->width() / 2 - 600 / 2 - 150, 1000 / 2, 600 / 2);
+    LevelNameBackground->setBrush(QBrush(palette().color(QPalette::Window)));
+    LevelNameBackground->setPen(Qt::NoPen);
+    scene->addItem(LevelNameBackground);
+
+    // Add a text input
+    levelNameInput = new QLineEdit();
+    levelNameInput->setPlaceholderText("Enter Level Name!");
+    levelNameInput->setStyleSheet("padding: 1em;");
+    levelNameInput->setFixedWidth(450);
+    QGraphicsProxyWidget *levelNameInputProxy = scene->addWidget(levelNameInput);
+    levelNameInputProxy->setPos(
+        -LevelNameBackground->boundingRect().width()/2 + 325,
+        this->width() / 2 - 600 / 2 - 50);
+
+    // Cancel button
+    QPushButton *cancelButton = new QPushButton("Cancel");
+    cancelButton->setStyleSheet("padding: 1em;");
+    cancelButton->setFixedWidth(200);
+    connect(cancelButton, &QPushButton::clicked, this, &Frame::destroyLevelNameOverlay);
+    QGraphicsProxyWidget *cancelButtonProxy = scene->addWidget(cancelButton);
+    cancelButtonProxy->setPos(this->width() / 2 - 1000 / 2 - 225, this->width() / 2 - 600 / 2 + 50);
+
+    // Confirm button
+    QPushButton *confirmButton = new QPushButton("Confirm");
+    confirmButton->setStyleSheet("padding: 1em;");
+    confirmButton->setFixedWidth(200);
+    connect(confirmButton, &QPushButton::clicked, this, [this]{
+        emit registerLevelName(levelNameInput->text());
+        emit publishLevel();
+        emit updateEditorFlag(Flag::DEFAULT);
+        destroyLevelNameOverlay();
+        showMainMenu();
+    });
+    QGraphicsProxyWidget *confirmButtonProxy = scene->addWidget(confirmButton);
+    confirmButtonProxy->setPos(this->width() / 2 - 1000 / 2 + 25, this->width() / 2 - 600 / 2 + 50);
+
+    overlayLevelNameView->show();
 }
 
 void Frame::showProfileCreationOverlay()
@@ -237,7 +286,7 @@ void Frame::showProfileCreationOverlay()
     overlayProfileView->setStyleSheet("background-color: rgba(0, 0, 0, 150);");
 
     QGraphicsRectItem *whiteBackground = new QGraphicsRectItem();
-    whiteBackground->setRect(wbxPos, wbyPos, wbWidth, wbHeight);
+    whiteBackground->setRect(this->width() / 2 - 1000 / 2, this->width() / 2 - 600 / 2, 1000, 600);
     whiteBackground->setBrush(QBrush(palette().color(QPalette::Window)));
     whiteBackground->setPen(Qt::NoPen);
     scene->addItem(whiteBackground);
@@ -246,25 +295,25 @@ void Frame::showProfileCreationOverlay()
     heroImageLabel = new QLabel();
     QPixmap heroImagePixmap(QString(":/image/1.png"));
     heroImageLabel->setPixmap(heroImagePixmap.scaled(
-        wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+        1000 / 2, 600 - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
     QGraphicsProxyWidget *heroImageProxy = scene->addWidget(heroImageLabel);
-    heroImageProxy->setPos(wbxPos + 32, wbyPos + 32);
+    heroImageProxy->setPos(this->width() / 2 - 1000 / 2 + 32, this->width() / 2 - 600 / 2 + 32);
 
     // Input Username
     nameInput = new QLineEdit();
     nameInput->setPlaceholderText("Enter profile name");
     nameInput->setStyleSheet("padding: 2em;");
-    nameInput->setFixedWidth(wbWidth /2 - 16);
+    nameInput->setFixedWidth(1000 /2 - 16);
     int niWidth = nameInput->width();
     nameInputProxy = scene->addWidget(nameInput);
-    nameInputProxy->setPos(wbxPos + 470, wbyPos + 64);
+    nameInputProxy->setPos(this->width() / 2 - 1000 / 2 + 470, this->width() / 2 - 600 / 2 + 64);
 
     // Add a error message box
     errorMsgLabel = new QLabel("");
     errorMsgLabel->setStyleSheet("background-color:transparent; color: red");
     errorMsgLabel->setVisible(false);
     errorMsgLabelProxy = scene->addWidget(errorMsgLabel);
-    errorMsgLabelProxy->setPos(wbxPos + 470, wbyPos + 150);
+    errorMsgLabelProxy->setPos(this->width() / 2 - 1000 / 2 + 470, this->width() / 2 - 600 / 2 + 150);
 
     // Add a 2x5 grid of images
     QGraphicsWidget *gridContainer = new QGraphicsWidget();
@@ -306,7 +355,7 @@ void Frame::showProfileCreationOverlay()
     }
 
     gridContainer->setLayout(gridLayout);
-    gridContainer->setPos(wbxPos + 460, wbyPos + 200);
+    gridContainer->setPos(this->width() / 2 - 1000 / 2 + 460, this->width() / 2 - 600 / 2 + 200);
     scene->addItem(gridContainer);
 
     // Cancel button
@@ -315,7 +364,7 @@ void Frame::showProfileCreationOverlay()
     cancelButton->setFixedWidth(2 * ((niWidth - 16) / 5));
     connect(cancelButton, &QPushButton::clicked, this, &Frame::destroyProfileOverlay);
     QGraphicsProxyWidget *cancelButtonProxy = scene->addWidget(cancelButton);
-    cancelButtonProxy->setPos(wbxPos + 470, wbyPos + 500);
+    cancelButtonProxy->setPos(this->width() / 2 - 1000 / 2 + 470, this->width() / 2 - 600 / 2 + 500);
 
     // Confirm button
     QPushButton *confirmButton = new QPushButton("Confirm");
@@ -327,7 +376,7 @@ void Frame::showProfileCreationOverlay()
         });
     });
     QGraphicsProxyWidget *confirmButtonProxy = scene->addWidget(confirmButton);
-    confirmButtonProxy->setPos(wbxPos + 486 + (3 * ((niWidth - 16) / 5)), wbyPos + 500);
+    confirmButtonProxy->setPos(this->width() / 2 - 1000 / 2 + 486 + (3 * ((niWidth - 16) / 5)), this->width() / 2 - 600 / 2 + 500);
 
     overlayProfileView->show();
 }
@@ -342,7 +391,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
 
     // Add a background
     QGraphicsRectItem *confirmBackground = new QGraphicsRectItem();
-    confirmBackground->setRect(wbxPos - 250, wbyPos - 150, wbWidth / 2, wbHeight / 2);
+    confirmBackground->setRect(this->width() / 2 - 1000 / 2 - 250, this->width() / 2 - 600 / 2 - 150, 1000 / 2, 600 / 2);
     confirmBackground->setBrush(QBrush(palette().color(QPalette::Window)));
     confirmBackground->setPen(Qt::NoPen);
     scene->addItem(confirmBackground);
@@ -351,7 +400,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
     QGraphicsTextItem *confirmationText = new QGraphicsTextItem(message);
     QFont confirmationFont("Arial", 24);
     confirmationText->setFont(confirmationFont);
-    confirmationText->setPos(wbxPos - 175, wbyPos - 50);
+    confirmationText->setPos(this->width() / 2 - 1000 / 2 - 175, this->width() / 2 - 600 / 2 - 50);
     scene->addItem(confirmationText);
 
     // Cancel button
@@ -360,7 +409,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
     cancelButton->setFixedWidth(200);
     connect(cancelButton, &QPushButton::clicked, this, &Frame::destroyOverlay);
     QGraphicsProxyWidget *cancelButtonProxy = scene->addWidget(cancelButton);
-    cancelButtonProxy->setPos(wbxPos - 225, wbyPos + 50);
+    cancelButtonProxy->setPos(this->width() / 2 - 1000 / 2 - 225, this->width() / 2 - 600 / 2 + 50);
 
     // Confirm button
     QPushButton *confirmButton = new QPushButton("Confirm");
@@ -370,7 +419,7 @@ void Frame::showConfirmationOverlay(const QString &message, std::function<void (
         onConfirm();
     });
     QGraphicsProxyWidget *confirmButtonProxy = scene->addWidget(confirmButton);
-    confirmButtonProxy->setPos(wbxPos + 25, wbyPos + 50);
+    confirmButtonProxy->setPos(this->width() / 2 - 1000 / 2 + 25, this->width() / 2 - 600 / 2 + 50);
 
     overlayConfirmationView->show();
 }
@@ -407,7 +456,6 @@ void Frame::showDifficultySelectionScreen()
             difficultyButton->setStyleSheet("padding: 2em;");
             difficultyButton->setFixedWidth(400);
             connect(difficultyButton, &QPushButton::clicked, this, [this, difficulty] {
-                qDebug() << "Selected difficulty:" << difficultyToString(difficulty);
                 currentDifficulty = difficulty;
                 emit registerDifficulty(currentDifficulty);
             });
@@ -431,7 +479,6 @@ void Frame::showDifficultySelectionScreen()
     backButton->setGeometry(bbxPos, bbyPos, 250, 32);
     connect(backButton, &QPushButton::clicked, this, [this] {
         int timeElapsed = startTime.msecsTo(QTime::currentTime());
-        qDebug() << "Time Diffrence: " << timeElapsed;
         emit updateTotalTimePlayed(currentUserId, timeElapsed);
         showProfileSelectionScreen();
     });
@@ -533,7 +580,6 @@ void Frame::showPlayScreen(const Level &level)
     QPushButton *clearButton = new QPushButton(QString("Clear"));
     clearButton->setGeometry(460, this->height() - 48, 250, 32);
     connect(clearButton, &QPushButton::clicked, this, [this, gridContainer, level]{
-        qDebug() << "Clearing the grid...";
         for (QGraphicsItem *items:gridContainer->childItems()) {
             CustomTile *tile = dynamic_cast<CustomTile *>(items);
             if (tile) {
@@ -581,7 +627,7 @@ void Frame::showFinishOverlay(
 
     // Add a background
     QGraphicsRectItem *finishBackground = new QGraphicsRectItem();
-    finishBackground->setRect(wbxPos - 250, wbyPos - 150, wbWidth / 2, wbHeight / 2);
+    finishBackground->setRect(this->width() / 2 - 1000 / 2 - 250, this->width() / 2 - 600 / 2 - 150, 1000 / 2, 600 / 2);
     finishBackground->setBrush(QBrush(palette().color(QPalette::Window)));
     finishBackground->setPen(Qt::NoPen);
     scene->addItem(finishBackground);
@@ -590,7 +636,7 @@ void Frame::showFinishOverlay(
     QGraphicsTextItem *finishText = new QGraphicsTextItem(message);
     QFont confirmationFont("Arial", 24);
     finishText->setFont(confirmationFont);
-    finishText->setPos(-finishBackground->boundingRect().width()/2, wbyPos - 50);
+    finishText->setPos(-finishBackground->boundingRect().width()/2 + 475, this->width() / 2 - 600 / 2 - 50);
     scene->addItem(finishText);
 
     // Exit button
@@ -602,7 +648,7 @@ void Frame::showFinishOverlay(
         destroyFinishOverlay();
     });
     QGraphicsProxyWidget *exitButtonProxy = scene->addWidget(exitButton);
-    exitButtonProxy->setPos(wbxPos - 225, wbyPos + 50);
+    exitButtonProxy->setPos(this->width() / 2 - 1000 / 2 - 225, this->width() / 2 - 600 / 2 + 50);
 
     // Accept button
     QPushButton *acceptButton = new QPushButton(acceptMsg);
@@ -612,7 +658,7 @@ void Frame::showFinishOverlay(
         onAccept();
     });
     QGraphicsProxyWidget *acceptButtonProxy = scene->addWidget(acceptButton);
-    acceptButtonProxy->setPos(wbxPos + 25, wbyPos + 50);
+    acceptButtonProxy->setPos(this->width() / 2 - 1000 / 2 + 25, this->width() / 2 - 600 / 2 + 50);
 
     overlayFinishView->show();
 }
@@ -731,6 +777,75 @@ void Frame::showHighscoreOverlay()
     overlayHighscoreView->show();
 }
 
+void Frame::showCustomLevelScreen()
+{
+    hideCurrentItems();
+
+    CSVLevelDAO levelDAO("level.csv");
+    std::vector<EditorLevel> levels = levelDAO.getAllLevels();
+
+    // Create a widget to hold the grid layout
+    QWidget *gridWidget = new QWidget();
+    QGridLayout *gridLayout = new QGridLayout(gridWidget);
+    gridWidget->setLayout(gridLayout);
+
+    // Create a scroll area to contain the grid widget
+    QScrollArea *scrollArea = new QScrollArea();
+    scrollArea->setWidget(gridWidget);
+    scrollArea->setWidgetResizable(true);
+    scrollArea->setGeometry(50, 50, this->width() - 100, this->height() - 150);
+    scene->addWidget(scrollArea);
+    currentWidgets.append(scrollArea);
+
+    // Add levels to the grid layout
+    int row = 0;
+    int col = 0;
+    for (const auto &level : levels) {
+        // Create a widget for each grid cell
+        QWidget *cellWidget = new QWidget();
+        cellWidget->setFixedHeight(100);
+        QVBoxLayout *cellLayout = new QVBoxLayout(cellWidget);
+        cellLayout->setAlignment(Qt::AlignTop);
+        cellWidget->setLayout(cellLayout);
+
+        // Level name label
+        QLabel *nameLabel = new QLabel(level.getLevelName());
+        nameLabel->setAlignment(Qt::AlignCenter);
+        cellLayout->addWidget(nameLabel);
+
+        // Level difficulty label
+        QLabel *difficultyLabel = new QLabel(level.getDifficulty());
+        difficultyLabel->setAlignment(Qt::AlignCenter);
+        cellLayout->addWidget(difficultyLabel);
+
+        // Play button
+        QPushButton *playButton = new QPushButton("Play");
+        cellLayout->addWidget(playButton);
+
+        // Connect the play button to showPlayScreen with the level
+        connect(playButton, &QPushButton::clicked, this, [this, level]() {
+            showPlayScreen(level.toLevel());
+        });
+
+        // Add the cell widget to the grid layout
+        gridLayout->addWidget(cellWidget, row, col);
+
+        // Update row and column for the next cell
+        col++;
+        if (col == 4) {
+            col = 0;
+            row++;
+        }
+    }
+
+    // Back button
+    QPushButton *backButton = new QPushButton(QString("Back"));
+    backButton->setGeometry(32, this->height() - 48, 250, 32);
+    connect(backButton, &QPushButton::clicked, this, &Frame::showDifficultySelectionScreen);
+    scene->addWidget(backButton);
+    currentWidgets.append(backButton);
+}
+
 void Frame::selectUser(int userId)
 {
     // Handle user selection
@@ -778,11 +893,16 @@ void Frame::destroyHighscoreOverlay()
     overlayHighscoreView->hide();
 }
 
+void Frame::destroyLevelNameOverlay()
+{
+    overlayLevelNameView->hide();
+}
+
 void Frame::updateHeroImage(const QString &imagePath)
 {
     QPixmap newPixmap(imagePath);
     heroImageLabel->setPixmap(
-        newPixmap.scaled(wbWidth / 2, wbHeight - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+        newPixmap.scaled(1000 / 2, 600 - 64, Qt::KeepAspectRatio, Qt::SmoothTransformation));
 }
 
 void Frame::handleRegistrationFailure(const QString &message)
@@ -815,7 +935,6 @@ void Frame::handleLevelEditorCreated(EditorLevel &editorLevel)
 
 void Frame::handleLevelChecked(bool result)
 {
-    qDebug() << "Checked result: " << result;
     if (result) {
         emit registerScore(currentUserId);
         showFinishOverlay("You Win!", "Again", [this]{
@@ -828,4 +947,9 @@ void Frame::handleLevelChecked(bool result)
             emit resumeGameTimer();
         });
     }
+}
+
+void Frame::handleCustomLevel()
+{
+    showCustomLevelScreen();
 }

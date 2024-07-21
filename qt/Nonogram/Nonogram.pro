@@ -39,6 +39,7 @@ HEADERS += \
     gamecontroller.h \
     level.h \
     leveldao.h \
+    nonogramsolver.h \
     profilecontroller.h \
     score.h \
     scoredao.h \
@@ -55,3 +56,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     resource.qrc
+
+DISTFILES +=

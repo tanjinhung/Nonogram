@@ -22,6 +22,8 @@ public:
     QString getLevelName() const;
     void setLevelName(const QString &newLevelName);
 
+    Level toLevel() const;
+
 private:
     QString levelName;
 };

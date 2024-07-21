@@ -32,9 +32,11 @@ int main(int argc, char *argv[])
     QObject::connect(frame, &Frame::createLevelEditor, gController, static_cast<void (GameController::*)(Flag)>(&GameController::createLevelEditor));
     QObject::connect(frame, &Frame::updateEditorFlag, gController, &GameController::handleUpdateFlag);
     QObject::connect(frame, &Frame::publishLevel, gController, &GameController::handlePublishLevel);
+    QObject::connect(frame, &Frame::registerLevelName, gController, &GameController::handleLevelName);
     QObject::connect(gController, &GameController::levelCreated, frame, &Frame::handleLevelCreated);
     QObject::connect(gController, &GameController::levelChecked, frame, &Frame::handleLevelChecked);
     QObject::connect(gController, &GameController::levelEditorCreated, frame, &Frame::handleLevelEditorCreated);
+    QObject::connect(gController, &GameController::showCustomLevel, frame, &Frame::handleCustomLevel);
 
     // gController <-> pController
     QObject::connect(gController, &GameController::getCurrentUser, pController, &ProfileController::getCurrentUser);

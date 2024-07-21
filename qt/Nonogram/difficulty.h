@@ -24,4 +24,14 @@ inline QString difficultyToString(Difficulty difficulty) {
     }
 }
 
+inline Difficulty stringToDifficulty(const QString &difficultyStr) {
+    if (difficultyStr == "Easy") return Difficulty::Easy;
+    if (difficultyStr == "Normal") return Difficulty::Normal;
+    if (difficultyStr == "Hard") return Difficulty::Hard;
+    if (difficultyStr == "Extreme") return Difficulty::Extreme;
+    if (difficultyStr == "Hell") return Difficulty::Hell;
+    if (difficultyStr == "Custom") return Difficulty::Custom;
+    return Difficulty::Custom; // Default to Custom if no match
+}
+
 #endif // DIFFICULTY_H

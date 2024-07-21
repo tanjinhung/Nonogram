@@ -21,6 +21,7 @@ signals:
     void levelEditorCreated(EditorLevel &editorLevel);
     void levelChecked(bool result);
     void getCurrentUser(int userId);
+    void showCustomLevel();
 
 public slots:
     void handleDifficulty(Difficulty difficulty);
