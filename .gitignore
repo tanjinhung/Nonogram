@@ -2,5 +2,7 @@
 .vscode
 *.exe
 diagram/*.png
-*/*.bkp
-
+diagram/*.bkp
+qt
+learn
+classdiagram

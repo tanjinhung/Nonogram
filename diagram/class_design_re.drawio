@@ -1,0 +1,990 @@
+<mxfile host="Electron" modified="2024-07-29T04:00:58.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="yEsgpKsWrGhQTXKTRi9d" version="24.5.3" type="device">
+  <diagram name="Page-1" id="hS-y774xuwW-Qo2i2y_M">
+    <mxGraphModel dx="3772" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-237" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-177" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-238" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-239" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-240" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-174" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-241" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-169" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-242" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-179" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-243" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-185" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-244" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-184" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-245" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-187" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-246" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-186" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-247" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-183" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-248" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-182" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-249" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-181" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-250" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-180" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-251" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-190" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-252" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-189" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-253" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-188" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-256" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1200" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-332" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-256" vertex="1" connectable="0">
+          <mxGeometry x="-0.8733" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-333" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-256" vertex="1" connectable="0">
+          <mxGeometry x="0.8739" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-334" value="User Profile Card" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;rotation=0;" parent="6sCiPZ4D5aLsPAaM5S6t-256" vertex="1" connectable="0">
+          <mxGeometry x="0.1072" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-257" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-326" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-257" vertex="1" connectable="0">
+          <mxGeometry x="0.2848" y="3" relative="1" as="geometry">
+            <mxPoint x="-18" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-327" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-257" vertex="1" connectable="0">
+          <mxGeometry x="-0.4737" y="2" relative="1" as="geometry">
+            <mxPoint x="20" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-337" value="Custom Grid &lt;br&gt;for Play Area" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-257" vertex="1" connectable="0">
+          <mxGeometry x="-0.2895" y="3" relative="1" as="geometry">
+            <mxPoint x="-19" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-258" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1290" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-330" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-258" vertex="1" connectable="0">
+          <mxGeometry x="0.1968" relative="1" as="geometry">
+            <mxPoint x="93" y="-96" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-331" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-258" vertex="1" connectable="0">
+          <mxGeometry x="0.4387" y="1" relative="1" as="geometry">
+            <mxPoint x="-15" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-335" value="User Profile&lt;br&gt;Card Container" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-258" vertex="1" connectable="0">
+          <mxGeometry x="0.1901" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-259" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-328" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-259" vertex="1" connectable="0">
+          <mxGeometry x="-0.5002" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-329" value="10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-259" vertex="1" connectable="0">
+          <mxGeometry x="0.5986" relative="1" as="geometry">
+            <mxPoint x="-12" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-336" value="Image Label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-259" vertex="1" connectable="0">
+          <mxGeometry x="0.3354" y="1" relative="1" as="geometry">
+            <mxPoint x="13" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-283" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-284" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=open;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-580" y="710" />
+              <mxPoint x="-580" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-323" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;«connect»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-300" vertex="1" connectable="0">
+          <mxGeometry x="-0.1094" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-301" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=open;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-324" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;«connect»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-301" vertex="1" connectable="0">
+          <mxGeometry x="-0.5739" y="-2" relative="1" as="geometry">
+            <mxPoint x="146" y="183" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-1" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Frame&lt;/b&gt;&lt;br&gt;{The Main boundary for all screen}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-1160" y="440" width="500" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-2" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-1" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-3" value="- currentItems: QList&amp;lt;QGraphicsItem*&amp;gt;&lt;div&gt;- currentWidgets: QList&amp;lt;QWidget*&amp;gt;&lt;/div&gt;&lt;div&gt;- heroImageLabel: QLabel*&lt;/div&gt;&lt;div&gt;- errorMsgLabel: QLabel*&lt;/div&gt;&lt;div&gt;- overlayProfileView: QGraphicsView*&lt;/div&gt;&lt;div&gt;- overlayConfirmationView:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;QGraphicsView*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- overlayFinishView:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QGraphicsView*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- overlayHighscoreView:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QGraphicsView*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- overlayLevelNameView:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QGraphicsView*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nameInput: QLineEdit*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- levelNameInput: QLineEdit*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nameInputProxy: QGraphicsProxyWidget*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- errorMsgLabelProxy:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QGraphicsProxyWidget*&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- selectedImageNumber: int=1&lt;/div&gt;&lt;div&gt;- startTime: QTime&lt;/div&gt;&lt;div&gt;- currentUserId: int&lt;/div&gt;&lt;div&gt;- currentDifficulty: Difficulty&lt;/div&gt;&lt;div&gt;+ scene: QGraphicsScene*&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-1" vertex="1">
+          <mxGeometry y="70" width="500" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-1" vertex="1">
+          <mxGeometry y="330" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-7" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-1" vertex="1">
+          <mxGeometry y="338" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-8" value="&lt;div&gt;«Create» Frame(QWidget *parent = nullptr)&lt;/div&gt;&lt;div&gt;+ showMainMenu(): void&lt;/div&gt;&lt;div&gt;+ showProfileSelectionScreen(): void&lt;/div&gt;&lt;div&gt;+ showLevelEditorScreen(EditorLevel *editorLevel): void&lt;/div&gt;&lt;div&gt;+ showLevelNameOverlay(): void&lt;/div&gt;&lt;div&gt;+ showProfileCreationOverlay(): void&lt;/div&gt;&lt;div&gt;+ showConfirmationOverlay(&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;message,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;std::function&amp;lt;void()&amp;gt; onConfirm): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ showDifficultySelectionScreen(): void&lt;/div&gt;&lt;div&gt;+ showPlayScreen(const Level &amp;amp;level): void&lt;/div&gt;&lt;div&gt;+ showFinishOverlay(&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;message,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;acceptMsg,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;std::function&amp;lt;void()&amp;gt; onAccept): void&lt;/div&gt;&lt;div&gt;+ showHighscoreOverlay(): void&lt;/div&gt;&lt;div&gt;+ showCustomLevelScreen(): void&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerUser(const QString &amp;amp;name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int imageNumber): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» updateTotalTimePlayed(&lt;span style=&quot;background-color: initial;&quot;&gt;int currentUserId,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int timeElapsed): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» confirmUserDeletion(int userId): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerDifficulty(Difficulty difficulty): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerTileClicked(int button, CustomTile *tile): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerFinishGame(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» clearGrid(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» resumeGameTimer(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerScore(int currentUserId): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» createLevelEditor(Flag flag): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» updateEditorFlag(Flag flag): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» publishLevel(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» registerLevelName(QString levelName): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Slots» handleRegistrationFailure(const QString &amp;amp;message):void&lt;/div&gt;&lt;div&gt;+ «Slots» handleRegistrationSuccess(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ «Slots» handleLevelCreated(const Level &amp;amp;level): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ «Slots» handleLevelEditorCreated(EditorLevel &amp;amp;editorLevel): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ «Slots» handleLevelChecked(bool result): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ «Slots» handleCustomLevel(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» selectUser(int userId): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» deleteUser(int userId): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyProfileOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyConfirmationOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyFinishOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyHighscoreOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» destroyLevelNameOverlay(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;- «Slots» updateHeroImage(const QString &amp;amp;imagePath): void&lt;br&gt;&lt;/div&gt;- hideCurrentItems(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-1" vertex="1">
+          <mxGeometry y="358" width="500" height="682" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-220" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;dashed=1;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-18" target="6sCiPZ4D5aLsPAaM5S6t-154" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-221" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-18" target="6sCiPZ4D5aLsPAaM5S6t-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-18" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ClickableLabel&lt;/b&gt;&lt;br&gt;{An image label for the profile creation overlay}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-1770" y="1050" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-19" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-18" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-20" value="- imagePath: QString&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-18" vertex="1">
+          <mxGeometry y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-18" vertex="1">
+          <mxGeometry y="90" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-24" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-18" vertex="1">
+          <mxGeometry y="98" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-25" value="«Create» explicit ClickableLabel(QWidget *parent = nullptr)&lt;div&gt;+ setImagePath(const QString &amp;amp;path): void&lt;/div&gt;&lt;div&gt;+ getImagePath() const:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ «Signals» clicked(const QString &amp;amp;imagePath): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;# mousePressEvent(QMouseEvent *event) override: void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-18" vertex="1">
+          <mxGeometry y="118" width="500" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-26" target="6sCiPZ4D5aLsPAaM5S6t-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1520" y="1410" />
+              <mxPoint x="-1520" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-222" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-26" target="6sCiPZ4D5aLsPAaM5S6t-158" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-223" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-26" target="6sCiPZ4D5aLsPAaM5S6t-160" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-26" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CustomScrollArea&lt;/b&gt;&lt;br&gt;{A custom scroll area for horizontal scrolling}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-1770" y="1426" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-27" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-26" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-26" vertex="1">
+          <mxGeometry y="70" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-30" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-26" vertex="1">
+          <mxGeometry y="78" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-31" value="«Create» CustomScrollArea(QWidget *parent = nullptr)&lt;div&gt;# wheelEvent(QWheelEvent *event) override: void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-26" vertex="1">
+          <mxGeometry y="98" width="500" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-161" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1520" y="450" />
+              <mxPoint x="-1520" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-224" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-162" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-225" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-195" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-226" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-163" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1590" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-227" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-194" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-228" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-32" target="6sCiPZ4D5aLsPAaM5S6t-164" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-32" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CustomTile&lt;/b&gt;&lt;br&gt;{A custom tile for the play grid}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-1770" y="470" width="500" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-33" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-32" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-37" value="&lt;div&gt;- color: QColor&lt;/div&gt;&lt;div&gt;- row: int&lt;/div&gt;&lt;div&gt;- col: int&lt;/div&gt;&lt;div&gt;- drawXMark: bool = false&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-32" vertex="1">
+          <mxGeometry y="70" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-32" vertex="1">
+          <mxGeometry y="130" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-35" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-32" vertex="1">
+          <mxGeometry y="138" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-36" value="«Create» CustomTile(&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int row, int col, QGraphicsWidget *parent = nullptr)&lt;/div&gt;&lt;div&gt;+ setColor(const QColor &amp;amp;newColor): void&lt;/div&gt;&lt;div&gt;+ drawX(): void&lt;/div&gt;&lt;div&gt;+ getRow(): int&lt;/div&gt;&lt;div&gt;+ getCol(): int&lt;/div&gt;&lt;div&gt;+ «Signals» leftButtonClicked(): void&lt;/div&gt;&lt;div&gt;«Signals» middleButtonClicked(): void&lt;/div&gt;&lt;div&gt;«Signals» rightButtonClicked(): void&lt;br&gt;&lt;div&gt;# mousePressEvent(QGraphicsSceneMouseEvent *event) override: void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# paint(&lt;span style=&quot;background-color: initial;&quot;&gt;QPainter *painter,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QStyleOptionGraphicsItem *option,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;QWidget *widget) override: void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-32" vertex="1">
+          <mxGeometry y="158" width="500" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-165" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1520" y="1720" />
+              <mxPoint x="-1520" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-229" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-230" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-167" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-231" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-232" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-192" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-233" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-173" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-234" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-191" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-235" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-38" target="6sCiPZ4D5aLsPAaM5S6t-193" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-38" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;UserItemWidget&lt;/b&gt;&lt;br&gt;{A user item widget for displaying Users}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-1770" y="1740" width="500" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-39" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-38" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-43" value="- userId: int&lt;div&gt;- scene: QGraphicsScene*&lt;/div&gt;&lt;div&gt;- imageLabel: QLabel*&lt;/div&gt;&lt;div&gt;- selectButton: QPushButton*&lt;/div&gt;&lt;div&gt;- deleteButton: QPushButton*&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-38" vertex="1">
+          <mxGeometry y="70" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-38" vertex="1">
+          <mxGeometry y="150" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-41" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-38" vertex="1">
+          <mxGeometry y="158" width="500" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-42" value="«Create» UserItemWidget(const User &amp;amp;user,&amp;nbsp;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;QWidget *parent = nullptr)&lt;/div&gt;&lt;div&gt;+ «Signals» selectUser(int userId): void&lt;/div&gt;&lt;div&gt;«Signals» deleteUser(int userId): void&lt;/div&gt;&lt;div&gt;- «Slots»&amp;nbsp;onSelectButtonClicked(): void&lt;/div&gt;&lt;div&gt;- «Slots» onDeleteButtonClicked(): void&lt;/div&gt;&lt;div&gt;- formatElapsedTime(qint64 milliseconds) const: QString&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-38" vertex="1">
+          <mxGeometry y="176" width="500" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-60" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Flag&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-724" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-61" value="DEFAULT&lt;div&gt;EDITING&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;" parent="6sCiPZ4D5aLsPAaM5S6t-60" vertex="1">
+          <mxGeometry y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-302" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-62" target="6sCiPZ4D5aLsPAaM5S6t-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-62" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Difficulty&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="180" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-63" value="Easy = 5&lt;div&gt;Normal = 10&lt;/div&gt;&lt;div&gt;Hard = 15&lt;/div&gt;&lt;div&gt;Extreme = 20&lt;/div&gt;&lt;div&gt;Hell = 30&lt;/div&gt;&lt;div&gt;Custom = 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;" parent="6sCiPZ4D5aLsPAaM5S6t-62" vertex="1">
+          <mxGeometry y="40" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-64" value="&amp;lt;&amp;lt;inline&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Difficulty_helper&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1084" y="150" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-65" value="&lt;div&gt;difficultyToString(Difficulty difficulty): QString&lt;/div&gt;&lt;div&gt;stringToDifficulty(const QString &amp;amp;difficultyStr): Difficulty&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;" parent="6sCiPZ4D5aLsPAaM5S6t-64" vertex="1">
+          <mxGeometry y="40" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-260" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-740" y="340" />
+              <mxPoint x="-1120" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-261" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-196" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-262" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-199" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-263" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-197" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-282" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-285" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="1365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-295" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="220" />
+              <mxPoint x="520" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-298" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=cross;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-96" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-299" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=cross;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-66" value="&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;GameController&lt;/b&gt;&lt;br&gt;{Main Controller for all game function}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="440" width="500" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-67" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-66" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-68" value="&lt;div&gt;- currentDifficulty: Difficulty&lt;/div&gt;&lt;div&gt;- newLevel: Level&lt;/div&gt;&lt;div&gt;- editorLevel: EditorLevel*&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- playTimer: QElapsedTimer&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- elapsedPausedTime: qint64&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- isTimerRunning: bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- currentUser: User&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- flag: Flag&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-66" vertex="1">
+          <mxGeometry y="70" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-66" vertex="1">
+          <mxGeometry y="190" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-70" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-66" vertex="1">
+          <mxGeometry y="198" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-71" value="«Create» explicit GameController(QObject *parent = nullptr)&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ «Signals» levelCreated(const Level &amp;amp;level): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» levelEditorCreated(EditorLevel &amp;amp;editorLevel): void&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» levelChecked(bool result): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» getCurrentUser(int userId): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» showCustomLevel():void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleDifficulty(Difficulty difficulty): void&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleTileClicked(int button, CustomTile *tile): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleFinishGame(): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleClearGrid(): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» resumeTimer(): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» registerScore(int userId): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleReturnUser(User user): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» createLevelEditor(Flag flag): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleUpdateFlag(Flag flag): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handlePublishFlag(): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» handleLevelName(QString levelName): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- generateLevel(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- createLevelEditor(Difficulty difficulty): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- printAllLevels() const: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- generatePuzzle(Difficulty difficulty): Level&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-66" vertex="1">
+          <mxGeometry y="218" width="500" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-266" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-72" target="6sCiPZ4D5aLsPAaM5S6t-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-268" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-72" target="6sCiPZ4D5aLsPAaM5S6t-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-72" value="&amp;lt;&amp;lt;controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ProfileController&lt;/b&gt;&lt;br&gt;{Main Controller for all user and profile function}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1621" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-73" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-72" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-72" vertex="1">
+          <mxGeometry y="70" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-76" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-72" vertex="1">
+          <mxGeometry y="78" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-77" value="«Create» explicit ProfileController(QObject *parent = nullptr)&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ «Signals» registrationFailed(const QString &amp;amp;msg): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;«Signals» registrationSucceeded(): void&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;«Signals» returnCurrentUser(User user): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» registerUser(const QString &amp;amp;name, int imageNumber): void&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» updateTotalTimePlayed(int currentUserId,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int timeElapsed): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» confirmUserDeletion(int userId): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;«Slots» getCurrentUser(int userId): void&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-72" vertex="1">
+          <mxGeometry y="98" width="500" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-78" value="&amp;lt;&amp;lt;service&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;NonogramSolver&lt;/b&gt;&lt;br&gt;{A Solver for the puzzle}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1550" width="500" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-79" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-78" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-83" value="&lt;div&gt;- rowHints: std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- colHints: std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- grid: std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- rows: int&lt;/div&gt;&lt;div&gt;- cols: int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-78" vertex="1">
+          <mxGeometry y="70" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-80" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-78" vertex="1">
+          <mxGeometry y="150" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-81" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-78" vertex="1">
+          <mxGeometry y="158" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-82" value="«Create» NonogramSolver(&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;rowHints,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;colHints&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;+ solve(): bool&lt;/div&gt;&lt;div&gt;+ toStr() const: std::string&lt;/div&gt;&lt;div&gt;- solveRow(int row): bool&lt;/div&gt;&lt;div&gt;- checkCols(): bool&lt;/div&gt;&lt;div&gt;- checkHint(const std::vector&amp;lt;int&amp;gt; &amp;amp;hint,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const std::vector&amp;lt;int&amp;gt; &amp;amp;values) const: bool&lt;/div&gt;&lt;div&gt;- generateCombinations(const std::vector&amp;lt;int&amp;gt; hints,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;size_t length,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;combinations,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;int&amp;gt; comb = {}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;size_t index = 0)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-78" vertex="1">
+          <mxGeometry y="178" width="500" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-270" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-84" target="6sCiPZ4D5aLsPAaM5S6t-202" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-271" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-84" target="6sCiPZ4D5aLsPAaM5S6t-201" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-307" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=cross;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-84" target="6sCiPZ4D5aLsPAaM5S6t-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1890" />
+              <mxPoint x="-40" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-308" value="HighScore" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-307" vertex="1" connectable="0">
+          <mxGeometry x="0.1622" y="4" relative="1" as="geometry">
+            <mxPoint x="-36" y="461" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-309" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-307" vertex="1" connectable="0">
+          <mxGeometry x="-0.9756" y="-1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-310" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-307" vertex="1" connectable="0">
+          <mxGeometry x="0.9312" y="2" relative="1" as="geometry">
+            <mxPoint x="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-311" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;dashed=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-84" target="6sCiPZ4D5aLsPAaM5S6t-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-600" y="1910" />
+              <mxPoint x="-600" y="1120" />
+              <mxPoint x="-50" y="1120" />
+              <mxPoint x="-50" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-312" value="«create&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-311" vertex="1" connectable="0">
+          <mxGeometry x="0.2954" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-318" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=cross;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-84" target="6sCiPZ4D5aLsPAaM5S6t-96" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-580" y="1890" />
+              <mxPoint x="-580" y="1180" />
+              <mxPoint x="-80" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-319" value="Selector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-318" vertex="1" connectable="0">
+          <mxGeometry x="-0.8934" y="2" relative="1" as="geometry">
+            <mxPoint x="32" y="-665" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-320" value="Creator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-318" vertex="1" connectable="0">
+          <mxGeometry x="0.8396" y="-1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-321" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-318" vertex="1" connectable="0">
+          <mxGeometry x="0.9654" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-322" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-318" vertex="1" connectable="0">
+          <mxGeometry x="-0.9615" y="-2" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-84" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;User&lt;/b&gt;&lt;br&gt;{The User type}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="1915" width="500" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-85" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-84" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-86" value="&lt;div&gt;- userId: int&lt;/div&gt;&lt;div&gt;- name: QString&lt;/div&gt;&lt;div&gt;- imageId: int&lt;/div&gt;&lt;div&gt;- levelCompleted: int&lt;/div&gt;&lt;div&gt;- fastestCompleted: qint64&lt;/div&gt;&lt;div&gt;- totalTimePlayed: qint64&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-84" vertex="1">
+          <mxGeometry y="70" width="500" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-87" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-84" vertex="1">
+          <mxGeometry y="160" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-88" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-84" vertex="1">
+          <mxGeometry y="168" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-89" value="«Create» User(int userId,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;name,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int imageId,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int levelCompleted,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;qint64 fastestCompleted,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;qint64 totalTimePlayed)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getUserId() const: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getName() const: QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setName(const QString &amp;amp;newName): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getImageId() const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setImageId(int newImageId): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getLevelCompleted() const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setLevelCompleted(int newLevelCompleted): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getFastestCompleted() const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qint64&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setFastestCompleted(qint64 newFastestCompleted): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTotalTimePlayed() const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qint64&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setTotalTimePlayed(qint64 newTotalTimePlayed): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getFastestCompletedTime() const: QTime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTotalTimePlayedTime() const: QTime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-84" vertex="1">
+          <mxGeometry y="188" width="500" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-292" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-90" target="6sCiPZ4D5aLsPAaM5S6t-211" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-90" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Score&lt;/b&gt;&lt;br&gt;{The Score type}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="270" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-91" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-90" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-92" value="&lt;div&gt;- scoreId: int&lt;/div&gt;&lt;div&gt;- userName: QString&lt;/div&gt;&lt;div&gt;- completionTime: qint64&lt;/div&gt;&lt;div&gt;- levelDifficulty: QString&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-90" vertex="1">
+          <mxGeometry y="70" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-93" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-90" vertex="1">
+          <mxGeometry y="130" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-94" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-90" vertex="1">
+          <mxGeometry y="138" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-95" value="«Create» Score(int scoreId,&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;userName,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;qint64 completionTime,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;levelDifficulty)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getScoreId() const: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getUserName() const: QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getCompletionTime() const: qint64&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getLevelDifficulty() const: QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ printScore() const: QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-90" vertex="1">
+          <mxGeometry y="158" width="500" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-293" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-96" target="6sCiPZ4D5aLsPAaM5S6t-206" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-294" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-96" target="6sCiPZ4D5aLsPAaM5S6t-207" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-96" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Level&lt;/b&gt;&lt;br&gt;{The Level type}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="650" width="500" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-97" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-96" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-98" value="&lt;div&gt;- solutionGrid:&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- currentGrid:&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- rowHint:&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- colHint:&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;- difficulty: QString&lt;/div&gt;&lt;div&gt;- size: int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-96" vertex="1">
+          <mxGeometry y="70" width="500" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-99" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-96" vertex="1">
+          <mxGeometry y="160" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-100" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-96" vertex="1">
+          <mxGeometry y="168" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-101" value="«Create» Level(const&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; solutionGrid,&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; currentGrid,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; rowHint,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; colHint,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;difficulty,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int size)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getSolutionGrid() const: const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setSolutionGrid(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;newSolutionGrid): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getCurrentGrid() const: const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setCurrentTile(int row, int col, int val): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getRowHint() const: const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setRowHint(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;newRowHint): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getColHint() const: const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setColHint(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;newColHint): void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getDifficulty() const: QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setDifficulty(const QString &amp;amp;newDifficulty): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getSize() const: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setSize(int newSize): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ printCurrentGrid() const: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ printSolutionGrid() const: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ printRowHint() const: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ printColHint() const: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-96" vertex="1">
+          <mxGeometry y="188" width="500" height="362" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-267" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-102" target="6sCiPZ4D5aLsPAaM5S6t-96" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-291" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-102" target="6sCiPZ4D5aLsPAaM5S6t-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-102" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;EditorLevel&lt;/b&gt;&lt;br&gt;{The sub of Level type}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1200" width="500" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-103" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-102" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-104" value="&lt;div&gt;- levelName: QString&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-102" vertex="1">
+          <mxGeometry y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-102" vertex="1">
+          <mxGeometry y="90" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-106" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-102" vertex="1">
+          <mxGeometry y="98" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-107" value="«Create» EditorLevel(&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; solutionGrid,&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; currentGrid,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; rowHint,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;std::vector&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; colHint,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;difficulty,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int size,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;cosnt QString &amp;amp;levelName&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ setSolutionTile(int row, int col, int val): void&lt;/div&gt;&lt;div&gt;+ finalizeHint(): void&lt;/div&gt;&lt;div&gt;+ getLevelName() const: QString&lt;/div&gt;&lt;div&gt;+ setLevelName(const QString &amp;amp;newLevelName): void&lt;/div&gt;&lt;div&gt;+ toLevel() const: Level&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-102" vertex="1">
+          <mxGeometry y="118" width="500" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-281" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-108" target="6sCiPZ4D5aLsPAaM5S6t-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-108" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;UserDAO&lt;/b&gt;&lt;br&gt;{An interface for User}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="1915" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-109" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-108" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-111" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-108" vertex="1">
+          <mxGeometry y="70" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-112" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-108" vertex="1">
+          <mxGeometry y="78" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-113" value="+ ~UserDAO()&lt;div&gt;+&amp;nbsp;getAllUsers(): std::vector&amp;lt;User&amp;gt; = 0&lt;/div&gt;&lt;div&gt;+ insert(const User&amp;amp; user): void&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ deleteUser(int userId): void&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getUserById(int userId) const: User&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ updateUser(const User&amp;amp; user): void&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-108" vertex="1">
+          <mxGeometry y="98" width="500" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-297" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-114" target="6sCiPZ4D5aLsPAaM5S6t-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-114" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ScoreDAO&lt;/b&gt;&lt;br&gt;{An interface for Score}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="510" y="270" width="500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-115" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-114" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-116" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-114" vertex="1">
+          <mxGeometry y="70" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-117" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-114" vertex="1">
+          <mxGeometry y="78" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-118" value="+ ~ScoreDAO()&lt;div&gt;+&amp;nbsp;getAllScores(): std::vector&amp;lt;Score&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ insert(const Score &amp;amp;score): void&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-114" vertex="1">
+          <mxGeometry y="98" width="500" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-287" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-124" target="6sCiPZ4D5aLsPAaM5S6t-102" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-124" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;LevelDAO&lt;/b&gt;&lt;br&gt;{An interface for Level}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="1290" width="500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-125" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-124" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-126" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-124" vertex="1">
+          <mxGeometry y="70" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-127" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-124" vertex="1">
+          <mxGeometry y="78" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-128" value="+ ~LevelDAO()&lt;div&gt;+&amp;nbsp;getAllLevels(): std::vector&amp;lt;EditorLevel&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ insert(const EditorLevel &amp;amp;editorLevel): void&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;= 0&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-124" vertex="1">
+          <mxGeometry y="98" width="500" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-296" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;dashed=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-129" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-304" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-129" target="6sCiPZ4D5aLsPAaM5S6t-212" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-305" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-129" target="6sCiPZ4D5aLsPAaM5S6t-213" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-306" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-129" target="6sCiPZ4D5aLsPAaM5S6t-214" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-129" value="&amp;lt;&amp;lt;realization&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CSVScoreDAO&lt;/b&gt;&lt;br&gt;{The ScoreDAO implementation for CSV}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="510" y="480" width="500" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-130" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-129" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-131" value="&lt;div&gt;- filename: QString&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-129" vertex="1">
+          <mxGeometry y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-132" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-129" vertex="1">
+          <mxGeometry y="90" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-133" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-129" vertex="1">
+          <mxGeometry y="98" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-134" value="«Create» CSVScoreDAO(const QString &amp;amp;filename&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;div&gt;&lt;div&gt;+&amp;nbsp;getAllScores() const override: std::vector&amp;lt;Score&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ insert(const Score&amp;amp; score) override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getNextScoreId() const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getMinTimeForUser(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;username&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qint64&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getCountLevelForUser(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;username&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-129" vertex="1">
+          <mxGeometry y="118" width="500" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-269" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;dashed=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-135" target="6sCiPZ4D5aLsPAaM5S6t-113" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-272" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-135" target="6sCiPZ4D5aLsPAaM5S6t-203" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-273" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-135" target="6sCiPZ4D5aLsPAaM5S6t-204" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-274" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-135" target="6sCiPZ4D5aLsPAaM5S6t-205" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-135" value="&amp;lt;&amp;lt;realization&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CSVUserDAO&lt;/b&gt;&lt;br&gt;{The UserDAO implementation for CSV}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="2155" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-136" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-135" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-137" value="&lt;div&gt;- filename: QString&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-135" vertex="1">
+          <mxGeometry y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-138" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-135" vertex="1">
+          <mxGeometry y="90" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-139" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-135" vertex="1">
+          <mxGeometry y="98" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-140" value="«Create» CSVUserDAO(const QString &amp;amp;filename&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;div&gt;&lt;div&gt;+&amp;nbsp;getAllUsers() const override: std::vector&amp;lt;User&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ insert(const User &amp;amp;user) override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ deleteUser(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int userId&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getUserById(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int userId) const override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;User&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ updateUser(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const User &amp;amp;updatedUser) override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getNextUserId() const: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-135" vertex="1">
+          <mxGeometry y="118" width="500" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-275" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-147" target="6sCiPZ4D5aLsPAaM5S6t-208" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-276" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-147" target="6sCiPZ4D5aLsPAaM5S6t-209" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-277" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-147" target="6sCiPZ4D5aLsPAaM5S6t-210" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-278" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=block;endFill=1;dashed=1;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-147" target="6sCiPZ4D5aLsPAaM5S6t-128" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-147" value="&amp;lt;&amp;lt;realization&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;CSVLevelDAO&lt;/b&gt;&lt;br&gt;{The LevelDAO implementation for CSV}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="1490" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-148" value="attributes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-147" vertex="1">
+          <mxGeometry y="50" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-149" value="&lt;div&gt;- filename: QString&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-147" vertex="1">
+          <mxGeometry y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-150" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="6sCiPZ4D5aLsPAaM5S6t-147" vertex="1">
+          <mxGeometry y="90" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-151" value="operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-147" vertex="1">
+          <mxGeometry y="98" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-152" value="«Create» explicit CSVLevelDAO(const QString &amp;amp;filename&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;div&gt;&lt;div&gt;+&amp;nbsp;getAllLevels() const override: std::vector&amp;lt;EditorLevel&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ insert(const EditorLevel &amp;amp;level) override:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ generateUniqueLevelName(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;baseName&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QString&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ levelNameExists(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const QString &amp;amp;levelName) const:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bool&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- parseCSVLine(const QString &amp;amp;line) const:&amp;nbsp;std::vector&amp;lt;QString&amp;gt;&lt;/div&gt;&lt;div&gt;- levelToCSVString(const EditorLevel &amp;amp;level) const: QString&lt;/div&gt;&lt;div&gt;- parseHintString(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const QString &amp;amp;hintString) const:&amp;nbsp;std::vector&amp;lt;int&amp;gt;&lt;/div&gt;&lt;div&gt;- hintToString(const&amp;nbsp;std::vector&amp;lt;int&amp;gt; &amp;amp;hint) const: QString&lt;/div&gt;&lt;div&gt;- intToBase36(int num) const: QString&lt;/div&gt;&lt;div&gt;- base36ToInt(const QString &amp;amp;str) const: int&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Lucida Console;" parent="6sCiPZ4D5aLsPAaM5S6t-147" vertex="1">
+          <mxGeometry y="118" width="500" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-153" value="QLabel" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="970" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-154" value="QMouseEvent" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1700" y="1270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-155" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1480" y="1270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-158" value="QScrollBar" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1700" y="1580" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-159" value="QScrollArea" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="1350" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-160" value="QScrollWheel" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1480" y="1580" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-161" value="QGraphicsWidget" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-162" value="QColor" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1740" y="840" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-163" value="QMouseEvent" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="840" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-164" value="QPainter" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1440" y="840" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-165" value="QGraphicsView" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="1660" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-166" value="QLabel" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1750" y="2040" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-167" value="QPushButton" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1670" y="2160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-168" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1430" y="2040" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-169" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1561" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-172" value="QGraphicsView" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-173" value="QGraphics-ProxyWidgrt" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="2160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-174" value="QGraphicsScene" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1981" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-175" value="QLabel" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1561" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-176" value="QLineEdit" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1501" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-177" value="QListWidget" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1981" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-178" value="QTime" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1501" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-179" value="QGraphicsTextItem" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1621" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-180" value="QScrollBar" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1741" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-181" value="QScrollArea" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1861" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-182" value="QAbstract-ScrollArea" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1741" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-183" value="QDebug" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1681" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-184" value="QListWidgetItem" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1621" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-185" value="QPushButton" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1921" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-186" value="QGraphics-&lt;span style=&quot;background-color: initial;&quot;&gt;ProxyWidget&lt;/span&gt;" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1921" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-187" value="QGraphics-GridLayout" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1681" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-188" value="QHBoxLayout" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1100" y="1801" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-189" value="QApplication" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1801" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-190" value="QTimer" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-880" y="1861" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-191" value="QGraphicsTextItem" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1480" y="2100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-192" value="QGraphicsScene" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1700" y="2100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-193" value="QTime" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1590" y="2040" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-194" value="QLineF" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="900" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-195" value="QGraphicsScene-MouseEvent" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1670" y="900" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-196" value="QRandomGenerator" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-540" y="1010" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-197" value="QDebug" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="1010" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-198" value="QObject" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-199" value="QElapsedTimer" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="1010" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-200" value="QObject" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="1541" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-201" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="2405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-202" value="QTime" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="2405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-203" value="QFile" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry y="2405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-204" value="QTestStream" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="160" y="2405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-205" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="320" y="2405" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-206" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-207" value="QDebug" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="270" y="1220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-208" value="QFile" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry y="1810" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-209" value="QTestStream" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1810" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-210" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1810" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-211" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="160" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-212" value="QFile" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="530" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-213" value="QTestStream" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="690" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-214" value="QString" style="shape=process2;fixedSize=1;size=5;fontStyle=1;html=1;whiteSpace=wrap;strokeColor=default;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="850" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-18" target="6sCiPZ4D5aLsPAaM5S6t-153" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1390" y="1006" as="sourcePoint" />
+            <mxPoint x="-1390" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1510" y="1060" />
+              <mxPoint x="-1510" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-236" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-8" target="6sCiPZ4D5aLsPAaM5S6t-178" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-172" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1150" y="320" as="sourcePoint" />
+            <mxPoint x="-1250" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-910" y="380" />
+              <mxPoint x="-910" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-264" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-198" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-650" y="380" as="sourcePoint" />
+            <mxPoint x="-650" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-310" y="420" />
+              <mxPoint x="-310" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;endArrow=block;endFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-72" target="6sCiPZ4D5aLsPAaM5S6t-200" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310.05" y="1461" as="sourcePoint" />
+            <mxPoint x="-310.05" y="1421" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=open;endFill=0;startArrow=open;startFill=0;" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-66" target="6sCiPZ4D5aLsPAaM5S6t-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="1220" as="sourcePoint" />
+            <mxPoint x="-167" y="1463" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="1460" />
+              <mxPoint x="-230" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6sCiPZ4D5aLsPAaM5S6t-325" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;«connect»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-303" vertex="1" connectable="0">
+          <mxGeometry x="0.2918" relative="1" as="geometry">
+            <mxPoint y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
