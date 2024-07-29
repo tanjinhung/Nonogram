@@ -69,10 +69,11 @@ qint64 CSVScoreDAO::getMinTimeForUser(const QString &username) const
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         qDebug() << "Failed to open file for reading:" << filename;
-        return lowestTime;
+        return -1;
     }
 
     QTextStream in(&file);
+    bool found = false;
     while (!in.atEnd()) {
         QString line = in.readLine();
         QStringList fields = line.split(',');
@@ -82,11 +83,12 @@ qint64 CSVScoreDAO::getMinTimeForUser(const QString &username) const
             if (completionTime < lowestTime) {
                 lowestTime = completionTime;
             }
+            found = true;
         }
     }
 
     file.close();
-    return (lowestTime == std::numeric_limits<int>::max()) ? 0 : lowestTime;
+    return found ? lowestTime : -1;
 }
 
 int CSVScoreDAO::getCountLevelForUser(const QString &username) const

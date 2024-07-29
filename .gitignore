@@ -3,6 +3,5 @@
 *.exe
 diagram/*.png
 diagram/*.bkp
-qt
 learn
 classdiagram

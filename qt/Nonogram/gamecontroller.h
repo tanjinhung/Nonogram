@@ -38,7 +38,6 @@ public slots:
 
 private:
     Difficulty currentDifficulty;
-    Level generatePuzzle(Difficulty difficulty);
     Level newLevel;
     EditorLevel *editorLevel;
     QElapsedTimer playTimer;
@@ -50,6 +49,8 @@ private:
     void generateLevel();
     void createLevelEditor(Difficulty difficulty);
     void printAllLevels() const;
+
+    Level generatePuzzle(Difficulty difficulty);
 };
 
 #endif // GAMECONTROLLER_H

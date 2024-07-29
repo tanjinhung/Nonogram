@@ -28,7 +28,12 @@ void ProfileController::updateTotalTimePlayed(int currentUserId, int timeElapsed
 
     CSVScoreDAO scoreDAO("score.csv");
     qint64 fastestTimePlayed = scoreDAO.getMinTimeForUser(user.getName());
-    user.setFastestCompleted(fastestTimePlayed);
+    if (fastestTimePlayed == -1) {
+        user.setFastestCompleted(0);
+        qDebug() << "No scores found for user:" << user.getName();
+    } else {
+        user.setFastestCompleted(fastestTimePlayed);
+    }
 
     int totalLevelCompleted = scoreDAO.getCountLevelForUser(user.getName());
     user.setLevelCompleted(totalLevelCompleted);

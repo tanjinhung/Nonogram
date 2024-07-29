@@ -9,8 +9,14 @@
 class NonogramSolver
 {
 public:
-    NonogramSolver(const std::vector<std::vector<int>> &rowHints, const std::vector<std::vector<int>> &colHints)
-        : rowHints(rowHints), colHints(colHints), rows(rowHints.size()), cols(colHints.size())
+    NonogramSolver(
+        const std::vector<std::vector<int>> &rowHints,
+        const std::vector<std::vector<int>> &colHints)
+        :
+        rowHints(rowHints),
+        colHints(colHints),
+        rows(rowHints.size()),
+        cols(colHints.size())
     {
         grid.resize(rows, std::vector<int>(cols, -1)); // -1 indicates unfilled cells
     }
@@ -86,7 +92,9 @@ private:
         return true;
     }
 
-    bool checkHint(const std::vector<int> &hint, const std::vector<int> &values) const
+    bool checkHint(
+        const std::vector<int> &hint,
+        const std::vector<int> &values) const
     {
         size_t hintIndex = 0;
         int count = 0;
@@ -120,7 +128,12 @@ private:
         return hintIndex == hint.size();
     }
 
-    void generateCombinations(const std::vector<int> &hint, size_t length, std::vector<std::vector<int>> &combinations, std::vector<int> comb = {}, size_t index = 0)
+    void generateCombinations(
+        const std::vector<int> &hint,
+        size_t length,
+        std::vector<std::vector<int>> &combinations,
+        std::vector<int> comb = {},
+        size_t index = 0)
     {
         if (index == hint.size())
         {

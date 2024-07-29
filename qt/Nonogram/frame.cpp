@@ -64,24 +64,25 @@ void Frame::showMainMenu()
     currentItems.append(titleText);
 
     // Create Play button
-    QPushButton *PlayButton = new QPushButton(QString("Play"));
+    QPushButton *playButton = new QPushButton(QString("Play"));
     int pbxPos = this->width()/2 - 250;
     int pbyPos = 500;
-    PlayButton->setGeometry(pbxPos, pbyPos, 500, 64);
-    connect(PlayButton, &QPushButton::clicked, this, &Frame::showProfileSelectionScreen);
-    scene->addWidget(PlayButton);
-    currentWidgets.append(PlayButton);
+    playButton->setGeometry(pbxPos, pbyPos, 500, 64);
+    connect(playButton, &QPushButton::clicked, this, &Frame::showProfileSelectionScreen);
+    scene->addWidget(playButton);
+    currentWidgets.append(playButton);
 
     // Create Level Editor button
-    QPushButton *LevelEditorButton = new QPushButton(QString("Level Editor"));
+    QPushButton *levelEditorButton = new QPushButton(QString("Level Editor"));
     int lebxPos = this->width()/2 - 250;
     int lebyPos = 600;
-    LevelEditorButton->setGeometry(lebxPos, lebyPos, 500, 64);
-    connect(LevelEditorButton, &QPushButton::clicked, this, [this]{
+    levelEditorButton->setGeometry(lebxPos, lebyPos, 500, 64);
+    connect(levelEditorButton, &QPushButton::clicked, this, [this]{
         emit createLevelEditor(Flag::EDITING);
+        currentDifficulty = Difficulty::Easy;
     });
-    scene->addWidget(LevelEditorButton);
-    currentWidgets.append(LevelEditorButton);
+    scene->addWidget(levelEditorButton);
+    currentWidgets.append(levelEditorButton);
 
     // Create Exit button
     QPushButton *exitButton = new QPushButton("Exit");
@@ -279,6 +280,8 @@ void Frame::showLevelNameOverlay()
 
 void Frame::showProfileCreationOverlay()
 {
+    selectedImageNumber = 1;
+
     // Creating the overlay
     QGraphicsScene *scene = new QGraphicsScene(this);
     overlayProfileView = new QGraphicsView(scene, this);
@@ -480,7 +483,12 @@ void Frame::showDifficultySelectionScreen()
     connect(backButton, &QPushButton::clicked, this, [this] {
         int timeElapsed = startTime.msecsTo(QTime::currentTime());
         emit updateTotalTimePlayed(currentUserId, timeElapsed);
-        showProfileSelectionScreen();
+        if (currentUserId != 0) {
+            showProfileSelectionScreen();
+        } else {
+            emit registerDifficulty(currentDifficulty);
+        }
+        currentUserId = 0;
     });
     scene->addWidget(backButton);
     currentWidgets.append(backButton);
@@ -879,8 +887,12 @@ void Frame::destroyConfirmationOverlay()
 
 void Frame::destroyOverlay()
 {
-    destroyProfileOverlay();
-    destroyConfirmationOverlay();
+    if (overlayProfileView) {
+        destroyProfileOverlay();
+    }
+    if (overlayConfirmationView) {
+        destroyConfirmationOverlay();
+    }
 }
 
 void Frame::destroyFinishOverlay()

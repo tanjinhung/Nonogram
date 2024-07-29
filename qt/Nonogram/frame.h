@@ -91,7 +91,7 @@ private:
     int selectedImageNumber = 1;
 
     QTime startTime;
-    int currentUserId;
+    int currentUserId = 0;
 
     Difficulty currentDifficulty;
 
