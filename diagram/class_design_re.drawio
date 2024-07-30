@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-29T04:00:58.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="yEsgpKsWrGhQTXKTRi9d" version="24.5.3" type="device">
+<mxfile host="Electron" modified="2024-07-29T15:49:19.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Itic_gp6_G0oAwzUgaBR" version="24.5.3" type="device">
   <diagram name="Page-1" id="hS-y774xuwW-Qo2i2y_M">
-    <mxGraphModel dx="3772" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3772" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,6 +162,13 @@
         <mxCell id="6sCiPZ4D5aLsPAaM5S6t-324" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;«connect»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-301" vertex="1" connectable="0">
           <mxGeometry x="-0.5739" y="-2" relative="1" as="geometry">
             <mxPoint x="146" y="183" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfPzVsoB-LbQI9l_xluX-2" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;" edge="1" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-1" target="6sCiPZ4D5aLsPAaM5S6t-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-780" y="420" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6sCiPZ4D5aLsPAaM5S6t-1" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Frame&lt;/b&gt;&lt;br&gt;{The Main boundary for all screen}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontFamily=Lucida Console;" parent="1" vertex="1">
@@ -982,6 +989,22 @@
         <mxCell id="6sCiPZ4D5aLsPAaM5S6t-325" value="&lt;span style=&quot;text-align: left; text-wrap: wrap;&quot;&gt;«connect»&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=default;fontStyle=0;labelBackgroundColor=none;fillColor=default;" parent="6sCiPZ4D5aLsPAaM5S6t-303" vertex="1" connectable="0">
           <mxGeometry x="0.2918" relative="1" as="geometry">
             <mxPoint y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfPzVsoB-LbQI9l_xluX-1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-8" target="6sCiPZ4D5aLsPAaM5S6t-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-350" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfPzVsoB-LbQI9l_xluX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;" edge="1" parent="1" source="6sCiPZ4D5aLsPAaM5S6t-8" target="6sCiPZ4D5aLsPAaM5S6t-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="1240" />
+              <mxPoint x="-30" y="1880" />
+              <mxPoint x="230" y="1880" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
