@@ -494,13 +494,13 @@ void Frame::showDifficultySelectionScreen()
     currentWidgets.append(backButton);
 
     // HighScore Button
-    QPushButton *createProfileButton = new QPushButton(QString("Highscore"));
+    QPushButton *highscoreButton = new QPushButton(QString("Highscore"));
     int cpbxPos = this->width() - 282;
     int cpbyPos = this->height() - 48;
-    createProfileButton->setGeometry(cpbxPos, cpbyPos, 250, 32);
-    connect(createProfileButton, &QPushButton::clicked, this, &Frame::showHighscoreOverlay);
-    scene->addWidget(createProfileButton);
-    currentWidgets.append(createProfileButton);
+    highscoreButton->setGeometry(cpbxPos, cpbyPos, 250, 32);
+    connect(highscoreButton, &QPushButton::clicked, this, &Frame::showHighscoreOverlay);
+    scene->addWidget(highscoreButton);
+    currentWidgets.append(highscoreButton);
 }
 
 void Frame::showPlayScreen(const Level &level)
