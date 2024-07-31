@@ -14,7 +14,7 @@ Nonogram Puzzle Game is a logic-based number puzzle game. The objective is to fi
 
 ## Getting Started
 ### Prerequisites
-- Qt framework [>install here](https://www.qt.io/download-open-source)
+- Qt framework [>install here](https://www.qt.io/download-qt-installer-oss)
 
 ### Building the project
 1. Clone the Repository.
