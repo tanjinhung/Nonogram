@@ -27,21 +27,21 @@ Problem:                            Answer:
 ## The Game
 1. Have a start screen that shows a Play button, Level editor, and Setting button.
 #### Play button
-1. Pressing the Play button shows profiles of three recent players on a separate screen with a next page button. Profiles consist of:
-   1. the player name.
-   2. the Level completed.
-   3. the Lowest Time to complete a puzzle.
-   4. time played
-   5. delete button
-   6. edit button
-   7. create button is the last panel of the profile selection screen.
+1. Pressing the Play button shows profiles of players. Profiles consist of:
+   1. Profile Name
+   2. Profile Image
+   3. the Level Completed
+   4. the Fastest Time to complete a puzzle
+   5. the Total Time Played
+   6. delete button
+   7. select button
 2. Upon selecting a profile, A choice of difficulty can be chosen.
    1. Easy (5x5)
    2. Normal (10x10)
    3. Hard (15x15)
    4. Extreme (20x20)
    5. Hell (30x30)
-   6. Custom (NxN)
+   6. Custom
    7. Highscore
 3. Selecting a difficulty will put user into the play screen.
    1. There will be buttons for Exit, Clear, Reset(Regenerate the game), and Finish.
