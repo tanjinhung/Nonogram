@@ -16,6 +16,8 @@ Nonogram Puzzle Game is a logic-based number puzzle game. The objective is to fi
 
 ##### Building the project
 1. Clone the Repository.
-`git clone https://github.com/tanjinhung/Nonogram.git`
+```bash
+    git clone https://github.com/tanjinhung/Nonogram.git
+```
 2. Open the project in Qt Creator.
 3. Build and Run the project.
