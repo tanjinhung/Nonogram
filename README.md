@@ -1,5 +1,7 @@
 # Nonogram Game
 
+![Main Image](img/Nonogram.png)
+
 ## Introduction
 Nonogram Puzzle Game is a logic-based number puzzle game. The objective is to fill in cells in a grid based on the provided hints for each row and column. The game also includes a level editor, allowing users to create their own puzzles.
 
