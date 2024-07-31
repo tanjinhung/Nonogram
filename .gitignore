@@ -1,6 +1,6 @@
 .vs
 .vscode
-.zip
+*.zip
 diagram/*.png
 diagram/*.bkp
 learn
